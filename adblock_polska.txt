@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Adblock Polska
-! Last modified: 21 Apr 2014
+! Last modified: 22 Apr 2014
 ! Homepage: http://fb.com/adblockpl
 ! NEW Polish Adblock List // Adblock Polska
 ! Thanks to Tomáš Taro for help & advice and Adblocklist.org, Niecko.pl for insipration!
@@ -17,7 +17,7 @@
 @@||ipla.$domain=ipla.tv
 @@||iplex.pl*/ads.js
 @@||ocdn.eu/files/pulscms/*.png
-@@||pah.org.pl
+@@||pah.org.pl$document
 @@||reklama.onet.pl*logo*png
 @@||tvn.adocean.pl/files/js/ado.js$domain=ekstraklasa.tv
 @@||wikimedia.org
@@ -101,6 +101,7 @@
 /img/vip-info.png?
 /media/banner/*.gif
 /pagead/ads?
+/partners/onet/
 /pixad/img/
 /player/VASTLoader.swf
 /popupredir/*$popup
