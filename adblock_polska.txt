@@ -7,11 +7,11 @@
 ! Works best with EasyList - be sure to subscribe it as well!
 ! We are just starting - please be patient and pardon our mistakes :)
 ! Report problems or unblocked ads by to adblockpolska@gmail.com
-!
+
+
 ! * - Whitelist - * !
-@@/player/vidAS=pre_roll
 @@/gstream.js|
-@@div[id="logoLinks"]
+@@/player/vidAS=pre_roll
 @@||192.168.
 @@||caritas.pl
 @@||ipla.$domain=ipla.tv
@@ -22,13 +22,14 @@
 @@||tvn.adocean.pl/files/js/ado.js$domain=ekstraklasa.tv
 @@||wikimedia.org
 @@||wp.tv/adv.js$domain=tosiewytnie.pl
-!
-!
+@@div[id="logoLinks"]
+
+
 ! * - Malware / Scam / Phishing / Spam / servers - * !
 ||ogloszenia*.co
 ||wpisznumer.pl
-!
-!
+
+
 ! * - Advertising & ad-statistics servers - * !
 ||18hd.pl^$third-party
 ||ad.filmweb.pl
@@ -87,12 +88,10 @@
 ||x.interia.pl
 ||x.o2.pl
 ||xxxxxxx.pl
-!
-!
+
+
 ! * - General blocking filters - * !
 .pl/files/bannery/
-_750x200_
-_res/banner/glowna/
 /adblock_detector.js
 /adexon_
 /anty-adblock.js
@@ -108,49 +107,51 @@ _res/banner/glowna/
 /rek/ifr/
 /reklamy/
 /vardata/banery/
+_750x200_
+_res/banner/glowna/
 washa_reklama.png
-!
-!
+
+
 ! * - DIV/Link blocking - * !
-##adserver.swiatobrazu.pl
 ##[class^="adocean"]
+##[class^="ads ads"]
 ##[class^="adv-home"]
 ##[class^="adv-ph-"]
-##[class^="ads ads"]
-##[class^="banner-content-"]
-##[class^="onet-ad"]
-##[class^="reklama"]
-##[class="billboardWrapper"]
-##[class="popup-fadeOverlay"]
-##[class="small-12 columns textC nieSkacz"]
-##[id^="CSPNONK"]
-##[id^="flash_banner_"]
-##[id^="FLOAT_frame"]
-##[id^="prv_main"]
-##[id^="prvAdd-"]
-##[id^="prvCommercial"]
-##[id^="ad_gora"]
-##[id^="aswift_"]
 ##[class^="amalker_"]
 ##[class^="banner b"]
+##[class^="banner-content-"]
 ##[class^="ban-top"]
 ##[class^="div_reklama"]
 ##[class^="iAdserver"]
 ##[class^="middleB"]
+##[class^="onet-ad"]
 ##[class^="rekalama"]
+##[class^="reklama"]
 ##[class^="topBarContainer"]
 ##[class="adSrodek"]
 ##[class="BanerHPBig"]
+##[class="billboardWrapper"]
 ##[class="bnMiddle"]
 ##[class="main-tbaner"]
 ##[class="pnbbaner"]
+##[class="popup-fadeOverlay"]
 ##[class="results__entry results__entry--ads"]
 ##[class="rrestbaner"]
 ##[class="sky_layer"]
+##[class="small-12 columns textC nieSkacz"]
+##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
+##[id^="aswift_"]
 ##[id^="billboard"]
+##[id^="CSPNONK"]
+##[id^="flash_banner_"]
+##[id^="FLOAT_frame"]
 ##[id^="header-banner"]
 ##[id^="id_reklama_"]
+##[id^="p_p_id_advert"]
+##[id^="prv_main"]
+##[id^="prvAdd-"]
+##[id^="prvCommercial"]
 ##[id^="reklama"]
 ##[id^="rlband."]
 ##[id^="sponsors-"]
@@ -163,25 +164,27 @@ washa_reklama.png
 ##[id="top-lead"]
 ##a[href^="http://ho.novem"]
 ##a[href^="http://kropka.onet.pl"]
+##adserver.swiatobrazu.pl
 ##form[action^="http://potreningu.pl"]
 ##iframe[id^="prvFrame"]
+##teaser_cnt
 pl##[class="ads"]
 pl##[class="advert"]
 pl##[class="box player special"]
-pl##[id="baner750x100"]
-pl##[id="baner635x85"]
-pl##[id="baner300x250"]
 pl##[id^="adv"]
+pl##[id="baner300x250"]
+pl##[id="baner635x85"]
+pl##[id="baner750x100"]
 pl##[id="top_banners"]
-##teaser_cnt
-!
-!
+
+
 ! * - Site-specific blocking - * !
-pino.pl/static/empire/
 gry-online.pl/im/zmieniarka/
 gry-online.poszkole.pl##FOOTER
+img.wiocha.pl/img/gry
 narodowcy.net##[class="custom"]
 pclab.pl/img/extra/058_*.jpg
+pino.pl/static/empire/
 proline.pl##[id="layer_top"]
 savefrom.net##[id="a2ce86ce"]
 static.fakt.pl/2014/04/09/635326440742220000.jpg
@@ -189,4 +192,3 @@ static-kinoman.tv/n*php
 www.fronda.pl##span[class="small-info"]
 www.gazeta-wiesci.pl##[class="widget widget_text"]
 www.lubin.pl##[id="banner"]
-img.wiocha.pl/img/gry
