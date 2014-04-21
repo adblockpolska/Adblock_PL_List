@@ -21,6 +21,12 @@
 @@||wp.tv/adv.js$domain=tosiewytnie.pl
 @@||reklama.onet.pl*logo*png
 !
+!
+! * - Malware / Scam / Phishing / Spam / servers - * !
+||ogloszenia-24.co
+||wpisznumer.pl
+!
+!
 ! * - Advertising & ad-statistics servers - * !
 ||18hd.pl^$third-party
 ||ad.filmweb.pl
@@ -54,13 +60,13 @@
 ||dot.wp.pl
 ||doubleclick.net$third-party
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
-||files.netsales.pl
-||googleadservices.com^$third-party
+||googleadservices.com$third-party
 ||hit.gemius.pl
 ||hub.com.pl
 ||intextad.net
 ||j.o2.pl
 ||kropka.onet.pl
+||netsales.pl$third-party
 ||nextclick.pl
 ||novem.pl^$third-party
 ||pagead2.
@@ -109,6 +115,7 @@ washa_reklama.png
 ##[class^="adv-home"]
 ##[class^="adv-ph-"]
 ##[class^="ads ads"]
+##[class^="banner-content-"]
 ##[class^="onet-ad"]
 ##[class^="reklama"]
 ##[class="billboardWrapper"]
@@ -151,6 +158,7 @@ washa_reklama.png
 ##[id="prv-billboard"]
 ##[id="sponsoring"]
 ##[id="topBar"]
+##[id="top-lead"]
 ##a[href^="http://ho.novem"]
 ##a[href^="http://kropka.onet.pl"]
 ##form[action^="http://potreningu.pl"]
@@ -163,6 +171,7 @@ pl##[id="baner635x85"]
 pl##[id="baner300x250"]
 pl##[id^="adv"]
 pl##[id="top_banners"]
+##teaser_cnt
 !
 !
 ! * - Site-specific blocking - * !
