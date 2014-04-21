@@ -13,17 +13,19 @@
 @@/gstream.js|
 @@div[id="logoLinks"]
 @@||192.168.
+@@||caritas.pl
 @@||ipla.$domain=ipla.tv
 @@||iplex.pl*/ads.js
 @@||ocdn.eu/files/pulscms/*.png
+@@||pah.org.pl
+@@||reklama.onet.pl*logo*png
 @@||tvn.adocean.pl/files/js/ado.js$domain=ekstraklasa.tv
 @@||wikimedia.org
 @@||wp.tv/adv.js$domain=tosiewytnie.pl
-@@||reklama.onet.pl*logo*png
 !
 !
 ! * - Malware / Scam / Phishing / Spam / servers - * !
-||ogloszenia-24.co
+||ogloszenia*.co
 ||wpisznumer.pl
 !
 !
@@ -179,6 +181,7 @@ pino.pl/static/empire/
 gry-online.pl/im/zmieniarka/
 gry-online.poszkole.pl##FOOTER
 narodowcy.net##[class="custom"]
+pclab.pl/img/extra/058_*.jpg
 proline.pl##[id="layer_top"]
 savefrom.net##[id="a2ce86ce"]
 static.fakt.pl/2014/04/09/635326440742220000.jpg
