@@ -1,12 +1,12 @@
 [Adblock Plus]
 ! Title: Adblock Polska
-! Last modified: 21 Apr 2014 02:21 GMT
+! Last modified: 21 Apr 2014
 ! Homepage: http://fb.com/adblockpl
 ! NEW Polish Adblock List // Adblock Polska
 ! Thanks to Tomáš Taro for help & advice and Adblocklist.org, Niecko.pl for insipration!
 ! Works best with EasyList - be sure to subscribe it as well!
 ! We are just starting - please be patient and pardon our mistakes :)
-! Report problems or unblocked ads by PM @ fb.com/adblockpl
+! Report problems or unblocked ads by to adblockpolska@gmail.com
 !
 ! * - Whitelist - * !
 @@/player/vidAS=pre_roll
@@ -28,6 +28,7 @@
 ||ad.prv.pl
 ||adblockdetector.com^$script
 ||adkontekst.pl
+||admailtiser.com$third-party,popup
 ||adocean.pl
 ||ads.trojmiasto.pl
 ||adsearch.pl
@@ -51,8 +52,9 @@
 ||crwdcntrl.net
 ||csr.onet.pl
 ||dot.wp.pl
-||doubleclick.net^$third-party
+||doubleclick.net$third-party
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
+||files.netsales.pl
 ||googleadservices.com^$third-party
 ||hit.gemius.pl
 ||hub.com.pl
@@ -118,14 +120,14 @@ washa_reklama.png
 ##[id^="prv_main"]
 ##[id^="prvAdd-"]
 ##[id^="prvCommercial"]
-##[id="ad_gora_srodek"]
+##[id^="ad_gora"]
 ##[id^="aswift_"]
-##[id="block_info_wrap"]
 ##[class^="amalker_"]
 ##[class^="banner b"]
 ##[class^="ban-top"]
 ##[class^="div_reklama"]
 ##[class^="iAdserver"]
+##[class^="middleB"]
 ##[class^="rekalama"]
 ##[class^="topBarContainer"]
 ##[class="adSrodek"]
@@ -143,8 +145,10 @@ washa_reklama.png
 ##[id^="reklama"]
 ##[id^="rlband."]
 ##[id^="sponsors-"]
+##[id="block_info_wrap"]
 ##[id="boxy"]
 ##[id="my-main-right"]
+##[id="prv-billboard"]
 ##[id="sponsoring"]
 ##[id="topBar"]
 ##a[href^="http://ho.novem"]
@@ -152,14 +156,18 @@ washa_reklama.png
 ##form[action^="http://potreningu.pl"]
 ##iframe[id^="prvFrame"]
 pl##[class="ads"]
-pl##[id^="adv"]
 pl##[class="advert"]
 pl##[class="box player special"]
+pl##[id="baner750x100"]
+pl##[id="baner635x85"]
+pl##[id="baner300x250"]
+pl##[id^="adv"]
 pl##[id="top_banners"]
 !
 !
 ! * - Site-specific blocking - * !
 pino.pl/static/empire/
+gry-online.pl/im/zmieniarka/
 gry-online.poszkole.pl##FOOTER
 narodowcy.net##[class="custom"]
 proline.pl##[id="layer_top"]
