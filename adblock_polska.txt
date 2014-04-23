@@ -1,12 +1,12 @@
 [Adblock Plus]
 ! Title: Adblock Polska
-! Last modified: 22 Apr 2014
+! Last modified: 23 Apr 2014
 ! Homepage: http://fb.com/adblockpl
 ! NEW Polish Adblock List // Adblock Polska
 ! Thanks to Tomáš Taro for help & advice and Adblocklist.org, Niecko.pl for insipration!
 ! Works best with EasyList - be sure to subscribe it as well!
 ! We are just starting - please be patient and pardon our mistakes :)
-! Report problems or unblocked ads by to adblockpolska@gmail.com
+! Report problems or unblocked ads to adblockpolska@gmail.com
 
 
 ! * - Whitelist - * !
@@ -26,7 +26,7 @@
 
 
 ! * - Malware / Scam / Phishing / Spam / servers - * !
-||ogloszenia*.co
+||ogloszenia*.co.
 ||wpisznumer.pl
 
 
@@ -35,6 +35,7 @@
 ||ad.filmweb.pl
 ||ad.gazeta.pl
 ||ad.prv.pl
+||ad.sterta.pl
 ||adblockdetector.com^$script
 ||adkontekst.pl
 ||admailtiser.com$third-party,popup
@@ -49,6 +50,7 @@
 ||adview.pl
 ||afilo.pl$third-party
 ||atmcdn.pl/*Adserver/
+||bankier.pl/gfx/ad
 ||bidswitch.net
 ||boksy.onet.pl
 ||cdn.sterta.pl
@@ -62,6 +64,7 @@
 ||csr.onet.pl
 ||dot.wp.pl
 ||doubleclick.net$third-party
+||ec.bankier.pl/file/
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
 ||googleadservices.com$third-party
 ||hit.gemius.pl
@@ -91,12 +94,24 @@
 
 
 ! * - General blocking filters - * !
+.pl/*/adds/
+.pl/data/banners
+.pl/images/baner-
+.pl/images/stories/baner
+.pl/img/ad/
 .pl/files/bannery/
+.pl/photos/adv_
+.pl/wp-content/banners/*swf
 /adblock_detector.js
 /adexon_
 /anty-adblock.js
+/banery/*110x90
+/banery/*980x90
+/banery/*980x100
 /banery-reklamowe/
 /emisje*.swf
+/foto/banery/
+/grafiki/bannery/
 /Image/banery/baner_
 /img/vip-info.png?
 /media/banner/*.gif
@@ -121,6 +136,7 @@ washa_reklama.png
 ##[class^="amalker_"]
 ##[class^="banner b"]
 ##[class^="banner-content-"]
+##[class^="banner_top_ad"]
 ##[class^="ban-top"]
 ##[class^="div_reklama"]
 ##[class^="iAdserver"]
@@ -133,6 +149,7 @@ washa_reklama.png
 ##[class="BanerHPBig"]
 ##[class="billboardWrapper"]
 ##[class="bnMiddle"]
+##[class="google_468x60"]
 ##[class="main-tbaner"]
 ##[class="pnbbaner"]
 ##[class="popup-fadeOverlay"]
@@ -140,6 +157,7 @@ washa_reklama.png
 ##[class="rrestbaner"]
 ##[class="sky_layer"]
 ##[class="small-12 columns textC nieSkacz"]
+##[class$="content_ad"]
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
 ##[id^="aswift_"]
@@ -154,10 +172,13 @@ washa_reklama.png
 ##[id^="prvAdd-"]
 ##[id^="prvCommercial"]
 ##[id^="reklama"]
+##[id^="Reklamy-"]
 ##[id^="rlband."]
 ##[id^="sponsors-"]
+##[id="banner970x90"]
 ##[id="block_info_wrap"]
 ##[id="boxy"]
+##[id="main-baner"]
 ##[id="my-main-right"]
 ##[id="prv-billboard"]
 ##[id="sponsoring"]
@@ -169,27 +190,38 @@ washa_reklama.png
 ##form[action^="http://potreningu.pl"]
 ##iframe[id^="prvFrame"]
 ##teaser_cnt
+pl##[class="banneritem"]
 pl##[class="ads"]
 pl##[class="advert"]
 pl##[class="box player special"]
+pl##[class="bxTBaner"]
+pl##[class="flexbanneritem"]
+pl##[class="index_banner"]
 pl##[id^="adv"]
 pl##[id="baner300x250"]
 pl##[id="baner635x85"]
 pl##[id="baner750x100"]
 pl##[id="top_banners"]
-
+24.pl##[id="oglmetka"]
 
 ! * - Site-specific blocking - * !
+brwinow.com##[src^="images/banners"]
+fronda.pl##span[class="small-info"]
+gazeta-wiesci.pl##[class="widget widget_text"]
 gry-online.pl/im/zmieniarka/
 gry-online.poszkole.pl##FOOTER
 img.wiocha.pl/img/gry
+lokalna24.pl/banery/
+lubin.pl##[id="banner"]
+miedzyrzec.info##[id^="baner"]
 narodowcy.net##[class="custom"]
-pclab.pl/img/extra/058_*.jpg
+pclab.pl/img/extra/*_left.jpg
+pclab.pl/img/extra/*_right.jpg
+pclab.pl/img/extra/*_back.jpg
 pino.pl/static/empire/
+portalprzemyski.pl/wp-content/re/
 proline.pl##[id="layer_top"]
 savefrom.net##[id="a2ce86ce"]
+serwislokalny.com##[class="banner"]
 static.fakt.pl/2014/04/09/635326440742220000.jpg
 static-kinoman.tv/n*php
-www.fronda.pl##span[class="small-info"]
-www.gazeta-wiesci.pl##[class="widget widget_text"]
-www.lubin.pl##[id="banner"]
