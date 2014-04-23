@@ -96,11 +96,13 @@
 
 
 ! * - General blocking filters - * !
+.info/images/banners/
 .pl/*/adds/
 .pl/data/banners
 .pl/images/baner-
 .pl/images/banners/reklama
 .pl/images/stories/baner
+.pl/images/stories/banner
 .pl/img/ad/
 .pl/files/bannery/
 .pl/photos/adv_
@@ -116,6 +118,7 @@
 /foto/banery/
 /grafiki/bannery/
 /Image/banery/baner_
+/img/banerki/
 /img/vip-info.png?
 /media/banner/*.gif
 /pagead/ads?
@@ -146,6 +149,7 @@ washa_reklama.png
 ##[class^="iAdserver"]
 ##[class^="middleB"]
 ##[class^="onet-ad"]
+##[class^="rek_sr"]
 ##[class^="rekalama"]
 ##[class^="reklama"]
 ##[class^="topBarContainer"]
@@ -161,6 +165,7 @@ washa_reklama.png
 ##[class="rrestbaner"]
 ##[class="sky_layer"]
 ##[class="small-12 columns textC nieSkacz"]
+##[class$="_750_banner"]
 ##[class$="content_ad"]
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
@@ -182,12 +187,14 @@ washa_reklama.png
 ##[id="banner970x90"]
 ##[id="block_info_wrap"]
 ##[id="boxy"]
+##[id="divStayTopLeft"]
 ##[id="main-baner"]
 ##[id="my-main-right"]
 ##[id="prv-billboard"]
 ##[id="sponsoring"]
 ##[id="topBar"]
 ##[id="top-lead"]
+##[src^="galeria/reklama"]
 ##a[href^="http://ho.novem"]
 ##a[href^="http://kropka.onet.pl"]
 ##adserver.swiatobrazu.pl
@@ -201,7 +208,9 @@ pl##[class="box player special"]
 pl##[class="bxTBaner"]
 pl##[class="flexbanneritem"]
 pl##[class="index_banner"]
+pl##[class^="a_box"]
 pl##[id^="adv"]
+pl##[id^="popup"]
 pl##[id="baner300x250"]
 pl##[id="baner635x85"]
 pl##[id="baner750x100"]
