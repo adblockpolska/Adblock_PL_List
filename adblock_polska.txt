@@ -12,8 +12,8 @@
 ! * - Whitelist - * !
 @@/gstream.js|
 @@/player/vidAS=pre_roll
+@@caritas.pl
 @@||192.168.
-@@||caritas.pl
 @@||ipla.$domain=ipla.tv
 @@||iplex.pl*/ads.js
 @@||ocdn.eu/files/pulscms/*.png
@@ -50,6 +50,7 @@
 ||adview.pl
 ||afilo.pl$third-party
 ||atmcdn.pl/*Adserver/
+||banery.bai.pl
 ||bankier.pl/gfx/ad
 ||bidswitch.net
 ||boksy.onet.pl
@@ -63,6 +64,7 @@
 ||crwdcntrl.net
 ||csr.onet.pl
 ||dot.wp.pl
+||dobryinteres.pl$third-party
 ||doubleclick.net$third-party
 ||ec.bankier.pl/file/
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
@@ -97,6 +99,7 @@
 .pl/*/adds/
 .pl/data/banners
 .pl/images/baner-
+.pl/images/banners/reklama
 .pl/images/stories/baner
 .pl/img/ad/
 .pl/files/bannery/
@@ -122,6 +125,7 @@
 /popupredir/*$popup
 /rek/ifr/
 /reklamy/
+/upload/banery_pl/
 /vardata/banery/
 _750x200_
 _res/banner/glowna/
@@ -205,6 +209,7 @@ pl##[id="top_banners"]
 24.pl##[id="oglmetka"]
 
 ! * - Site-specific blocking - * !
+alemiasto.pl##[class^="ad"]
 brwinow.com##[src^="images/banners"]
 fronda.pl##span[class="small-info"]
 gazeta-wiesci.pl##[class="widget widget_text"]
@@ -218,6 +223,7 @@ narodowcy.net##[class="custom"]
 pclab.pl/img/extra/*_left.jpg
 pclab.pl/img/extra/*_right.jpg
 pclab.pl/img/extra/*_back.jpg
+pila.pl/images/banners/
 pino.pl/static/empire/
 portalprzemyski.pl/wp-content/re/
 proline.pl##[id="layer_top"]
