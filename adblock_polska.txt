@@ -74,6 +74,7 @@
 ||intextad.net
 ||j.o2.pl
 ||kropka.onet.pl
+||leadsign.pl/router/$third-party
 ||netsales.pl$third-party
 ||nextclick.pl
 ||novem.pl^$third-party
@@ -116,11 +117,13 @@
 /banery-reklamowe/
 /emisje*.swf
 /foto/banery/
+/gfx/bannery
 /grafiki/bannery/
 /Image/banery/baner_
 /img/banerki/
 /img/vip-info.png?
 /media/banner/*.gif
+/miejsce-na-reklame
 /pagead/ads?
 /partners/onet/
 /pixad/img/
@@ -145,6 +148,7 @@ washa_reklama.png
 ##[class^="banner-content-"]
 ##[class^="banner_top_ad"]
 ##[class^="ban-top"]
+##[class^="centrujban"]
 ##[class^="div_reklama"]
 ##[class^="iAdserver"]
 ##[class^="middleB"]
@@ -161,6 +165,7 @@ washa_reklama.png
 ##[class="main-tbaner"]
 ##[class="pnbbaner"]
 ##[class="popup-fadeOverlay"]
+##[class="reklama_title"]
 ##[class="results__entry results__entry--ads"]
 ##[class="rrestbaner"]
 ##[class="sky_layer"]
@@ -187,6 +192,7 @@ washa_reklama.png
 ##[id="banner970x90"]
 ##[id="block_info_wrap"]
 ##[id="boxy"]
+##[id="contener_billboard"]
 ##[id="divStayTopLeft"]
 ##[id="main-baner"]
 ##[id="my-main-right"]
@@ -194,7 +200,10 @@ washa_reklama.png
 ##[id="sponsoring"]
 ##[id="topBar"]
 ##[id="top-lead"]
+##[name="bottom_billboard"]
 ##[src^="galeria/reklama"]
+##[src^="gfx/bannery"]
+##[src$="_banner.png"]
 ##a[href^="http://ho.novem"]
 ##a[href^="http://kropka.onet.pl"]
 ##adserver.swiatobrazu.pl
@@ -226,9 +235,13 @@ gry-online.pl/im/zmieniarka/
 gry-online.poszkole.pl##FOOTER
 img.wiocha.pl/img/gry
 lokalna24.pl/banery/
+lubartow24.pl/f*_bok.
 lubin.pl##[id="banner"]
 miedzyrzec.info##[id^="baner"]
 narodowcy.net##[class="custom"]
+olsztyn*_banner.
+orneta.net##[class="lof-container"]
+orneta.net/wp-content/plugins/easing-slider/images/shadow_arc.png
 pclab.pl/img/extra/*_left.jpg
 pclab.pl/img/extra/*_right.jpg
 pclab.pl/img/extra/*_back.jpg
