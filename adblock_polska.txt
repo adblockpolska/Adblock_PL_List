@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Adblock Polska
-! Last modified: 23 Apr 2014
+! Last modified: 07 May 2014
 ! Homepage: http://fb.com/adblockpl
 ! NEW Polish Adblock List // Adblock Polska
 ! Thanks to Tomáš Taro for help & advice and Adblocklist.org, Niecko.pl for insipration!
@@ -10,19 +10,23 @@
 
 
 ! * - Whitelist - * !
+@@clientaccesspolicy.xml
 @@/gstream.js|
 @@/player/vidAS=pre_roll
 @@caritas.pl
+@@div[id="logoLinks"]
+@@/vod/reklamy/WIZERUNEK.mp4
 @@||192.168.
+@@||iap.pl/ads/s/3906/
 @@||ipla.$domain=ipla.tv
 @@||iplex.pl*/ads.js
 @@||ocdn.eu/files/pulscms/*.png
 @@||pah.org.pl$document
+@@||legnica.eu/uploads/pub/ads_files/ads_
 @@||reklama.onet.pl*logo*png
 @@||tvn.adocean.pl/files/js/ado.js$domain=ekstraklasa.tv
 @@||wikimedia.org
 @@||wp.tv/adv.js$domain=tosiewytnie.pl
-@@div[id="logoLinks"]
 
 
 ! * - Malware / Scam / Phishing / Spam / servers - * !
@@ -127,6 +131,7 @@
 /pagead/ads?
 /partners/onet/
 /pixad/img/
+/photos/adv_
 /player/VASTLoader.swf
 /popupredir/*$popup
 /rek/ifr/
@@ -156,6 +161,7 @@ washa_reklama.png
 ##[class^="rek_sr"]
 ##[class^="rekalama"]
 ##[class^="reklama"]
+##[class^="row bigbaner"]
 ##[class^="topBarContainer"]
 ##[class="adSrodek"]
 ##[class="BanerHPBig"]
@@ -217,28 +223,38 @@ pl##[class="box player special"]
 pl##[class="bxTBaner"]
 pl##[class="flexbanneritem"]
 pl##[class="index_banner"]
+pl##[class="peeloverlay"]
 pl##[class^="a_box"]
+pl##[class^="bannergroup"]
 pl##[id^="adv"]
 pl##[id^="popup"]
 pl##[id="baner300x250"]
 pl##[id="baner635x85"]
 pl##[id="baner750x100"]
+pl##[id="page-peel-banner"]
 pl##[id="top_banners"]
 24.pl##[id="oglmetka"]
 
 ! * - Site-specific blocking - * !
+7dni.pila.pl##[id="content-left"]
 alemiasto.pl##[class^="ad"]
+benchmark.pl##[id="adblock-info"]
 brwinow.com##[src^="images/banners"]
+debica24.eu/system/45/assets/000/00*baner
 fronda.pl##span[class="small-info"]
 gazeta-wiesci.pl##[class="widget widget_text"]
 gry-online.pl/im/zmieniarka/
+gry-online.pl##[id^="teaser_cnt"]
 gry-online.poszkole.pl##FOOTER
 img.wiocha.pl/img/gry
+koscian.net##[class^="col span_3 banery"]
 lokalna24.pl/banery/
 lubartow24.pl/f*_bok.
 lubin.pl##[id="banner"]
 miedzyrzec.info##[id^="baner"]
 narodowcy.net##[class="custom"]
+naszamlawa.pl##[id^="fancybox-"]
+newsweek.pl##[class^="Block-Banner"]
 olsztyn*_banner.
 orneta.net##[class="lof-container"]
 orneta.net/wp-content/plugins/easing-slider/images/shadow_arc.png
@@ -247,9 +263,12 @@ pclab.pl/img/extra/*_right.jpg
 pclab.pl/img/extra/*_back.jpg
 pila.pl/images/banners/
 pino.pl/static/empire/
+portalm³awa.pl##[class^="xc-primary xc-rows right"]
 portalprzemyski.pl/wp-content/re/
 proline.pl##[id="layer_top"]
 savefrom.net##[id="a2ce86ce"]
 serwislokalny.com##[class="banner"]
 static.fakt.pl/2014/04/09/635326440742220000.jpg
 static-kinoman.tv/n*php
+wp.tv##[class="infoAB"]
+xn--portalmawa-g0b.pl##[id^="xc-98-primary"]
