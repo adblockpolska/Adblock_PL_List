@@ -12,6 +12,7 @@
 ! * - General Blocking Rules - * !
 .info/images/banners/
 .pl/*/adds/
+.pl/*/ads/
 .pl/data/banners
 .pl/images/baner-
 .pl/images/banners/reklama
