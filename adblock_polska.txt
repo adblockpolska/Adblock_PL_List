@@ -75,7 +75,6 @@ _res/banner/glowna/
 ###top_banners
 ###top-lead
 ###topBar
-##.ads
 ##.adSrodek
 ##.advert
 ##.BanerHPBig
