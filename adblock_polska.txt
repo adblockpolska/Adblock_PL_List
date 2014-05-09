@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 08 May 2014
+! Last modified: 09 May 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: Adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -20,33 +20,37 @@
 .pl/images/stories/banner
 .pl/img/ad/
 .pl/files/bannery/
+.pl/news/banery/
 .pl/wp-content/banners/
 /adexon_
 /anty-adblock.js
 /banery/*110x90
+/banery/*750x100
+/banery/*750x200
 /banery/*980x90
 /banery/*980x100
-/banery-reklamowe/*
+/banery-reklamowe/
 /emisje*.swf
-/foto/banery/*
+/foto/banery/
 /galeria/reklama
 /gfx/bannery
-/grafiki/bannery/*
+/grafiki/bannery/
 /Image/banery/baner_
-/img/banerki/*
+/img/banery/
+/img/banerki/
 /img/vip-info.png?
 /media/banner/*.gif
 /miejsce-na-reklame
 /pagead/ads?
-/partners/onet/*
-/pixad/img/*
+/partners/onet/
+/pixad/img/
 /photos/adv_
 /player/VASTLoader.swf
 /popupredir/*$popup
-/rek/ifr/*
-/reklamy/*
-/upload/banery_pl/*
-/vardata/banery/*
+/rek/ifr/
+/reklamy/
+/upload/banery_pl/
+/vardata/banery/
 _750x200_
 _banner.png
 _res/banner/glowna/
@@ -63,7 +67,10 @@ _res/banner/glowna/
 ###main-baner
 ###my-main-right
 ###page-peel-banner
+###page_top_reklama
 ###prv-billboard
+###rekGora
+###slideshow_minibanner
 ###sponsoring
 ###top_banners
 ###top-lead
@@ -72,6 +79,7 @@ _res/banner/glowna/
 ##.adSrodek
 ##.advert
 ##.BanerHPBig
+##.baner_reklama
 ##.banneritem
 ##.box.player.special
 ##.bxTBaner
@@ -91,7 +99,6 @@ _res/banner/glowna/
 ##.teaser_cnt
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
-##[id^="adv"]
 ##[id^="aswift_"]
 ##[id^="billboard"]
 ##[id^="CSPNONK"]
@@ -116,6 +123,7 @@ _res/banner/glowna/
 ##[class^="adv-ph-"]
 ##[class^="amalker_"]
 ##[class^="ban-top"]
+##[class^="banera1"]
 ##[class^="banner b"]
 ##[class^="banner-content-"]
 ##[class^="banner_top_ad"]
@@ -166,6 +174,7 @@ _res/banner/glowna/
 ||banery.bai.pl
 ||bankier.pl/gfx/ad
 ||bidswitch.net
+||bochnianin.pl/foto/pasek/
 ||boksy.onet.pl
 ||brwinow.com/images/banners
 ||cdn.sterta.pl
@@ -189,6 +198,7 @@ _res/banner/glowna/
 ||lokalna24.pl/banery/
 ||lubartow24.pl/f*_bok.
 ||nextclick.pl
+||pclab.pl/img/extra/*_top.png
 ||pclab.pl/img/extra/*_left.jpg
 ||pclab.pl/img/extra/*_right.jpg
 ||pclab.pl/img/extra/*_back.jpg
@@ -227,13 +237,17 @@ _res/banner/glowna/
 7dni.pila.pl###content-left
 alemiasto.pl##[class^="ad"]
 benchmark.pl###adblock-info
+bochnianin.pl###slideText
+formentorplus.pl##form
 fronda.pl##.small-info
 gazeta-wiesci.pl##.widget.widget_text
 gry-online.pl##[id^="teaser_cnt"]
 gry-online.poszkole.pl##FOOTER
+kartuzy.info##[id^="baner"]
 koscian.net##[class^="banery"]
 lubin.pl###banner
 miedzyrzec.info##[id^="baner"]
+moszczenica.info##.bannergroup
 narodowcy.net##.custom
 naszamlawa.pl##[id^="fancybox-"]
 newsweek.pl##[class^="Block-Banner"]
