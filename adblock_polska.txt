@@ -56,6 +56,7 @@ _banner.png
 _res/banner/glowna/
 
 ! * - General Element Hiding Rules - * !
+###adv_bottom
 ###baner300x250
 ###baner635x85
 ###baner750x100
@@ -179,7 +180,6 @@ _res/banner/glowna/
 ||cdn.sterta.pl
 ||clicktale.net
 ||comperialead.pl/widget/
-||contentstream.pl
 ||creativecdn.com
 ||crwdcntrl.net
 ||csr.onet.pl
@@ -187,6 +187,8 @@ _res/banner/glowna/
 ||dot.wp.pl
 ||ec.bankier.pl/file/
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
+||fwcdn.pl/adv/*
+||filmweb.pl/welcomeScreenJS?*
 ||gry-online.pl/im/zmieniarka/
 ||hit.gemius.pl
 ||hub.com.pl
@@ -196,6 +198,8 @@ _res/banner/glowna/
 ||kropka.onet.pl
 ||lokalna24.pl/banery/
 ||lubartow24.pl/f*_bok.
+||napisy24.pl/files/*
+||napisy24.pl/images/190x260x_
 ||nextclick.pl
 ||pclab.pl/img/extra/*_top.png
 ||pclab.pl/img/extra/*_left.jpg
@@ -213,7 +217,7 @@ _res/banner/glowna/
 ||video.vid4u.org
 ||visualrevenue.com
 ||wrzuta.pl/ads
-||x.interia.pl
+||x.interia.pl/*.ad.
 ||x.o2.pl
 ||xxxxxxx.pl
 
@@ -237,6 +241,10 @@ _res/banner/glowna/
 alemiasto.pl##[class^="ad"]
 benchmark.pl###adblock-info
 bochnianin.pl###slideText
+filmweb.pl###flashcontent3
+filmweb.pl###homeBar1-pl_PL
+filmweb.pl##[id^="homeBox"]
+filmweb.pl##.relative.iplaParent
 formentorplus.pl##form
 fronda.pl##.small-info
 gazeta-wiesci.pl##.widget.widget_text
@@ -247,11 +255,19 @@ koscian.net##[class^="banery"]
 lubin.pl###banner
 miedzyrzec.info##[id^="baner"]
 moszczenica.info##.bannergroup
+napisy24.pl###baner_300_250
+napisy24.pl##.header_210
 narodowcy.net##.custom
 naszamlawa.pl##[id^="fancybox-"]
 newsweek.pl##[class^="Block-Banner"]
 orneta.net##.lof-container
+pclab.pl##[href^="http://kropka.onet.pl/redir/redir.rd?banner"]
 proline.pl###layer_top
+sadistic.pl/pics/c57d81558fed.jpg
 serwislokalny.com##.banner
+telepolis.pl##.b_750
+telepolis.pl##.wiadomosci_lista_div
+telepolis.pl##[style="text-align:center; width:369px; height:285px;"]
+wp.pl##[id^="adv"]
 wp.tv##.infoAB
 xn--portalmawa-g0b.pl##[id^="xc-98-primary"]
