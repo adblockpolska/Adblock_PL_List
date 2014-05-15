@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 09 May 2014
+! Last modified: 15 May 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: Adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -30,6 +30,7 @@
 /banery/*980x90
 /banery/*980x100
 /banery-reklamowe/
+/boxReklama
 /emisje*.swf
 /foto/banery/
 /galeria/reklama
@@ -49,11 +50,16 @@
 /popupredir/*$popup
 /rek/ifr/*
 /reklamy/*
+/storiesflash*.swf
+/storiesflash/baner
 /upload/banery_pl/*
 /vardata/banery/*
 _750x200_
 _banner.png
+_reklama.jpg
 _res/banner/glowna/
+-lokazje.
+-reklama.gif
 
 ! * - General Element Hiding Rules - * !
 ###adv_bottom
@@ -61,6 +67,7 @@ _res/banner/glowna/
 ###baner635x85
 ###baner750x100
 ###banner970x90
+###baner-top
 ###block_info_wrap
 ###boxy
 ###contener_billboard
@@ -75,7 +82,6 @@ _res/banner/glowna/
 ###sponsoring
 ###top_banners
 ###top-lead
-###topBar
 ##.adSrodek
 ##.advert
 ##.BanerHPBig
@@ -89,10 +95,13 @@ _res/banner/glowna/
 ##.google_468x60
 ##.index_banner
 ##.main-tbaner
+##.moduletable_reklama
+##.moduletable_reklama_banner
 ##.peeloverlay
 ##.pnbbaner
 ##.popup-fadeOverlay
 ##.reklama_title
+##.reklamy_banner
 ##.results__entry--ads
 ##.rrestbaner
 ##.sky_layer
@@ -140,12 +149,14 @@ _res/banner/glowna/
 ##[class^="topBarContainer"]
 ##[class$="_750_banner"]
 ##[class$="content_ad"]
+##[src^="reklama"]
 
 ! * - Whitelist - * !
 @@/gstream.js|
 @@/player/vidAS=pre_roll
 @@/vod/reklamy/WIZERUNEK.mp4
 @@||iap.pl/ads/
+@@||informacjelokalne.pl/images/storiesflash/czolowka
 @@||ipla.$domain=ipla.tv
 @@||iplex.pl*/ads.js
 @@||ocdn.eu/files/pulscms/*.png
@@ -220,6 +231,7 @@ _res/banner/glowna/
 ||x.interia.pl/*.ad.
 ||x.o2.pl
 ||xxxxxxx.pl
+||zycie-pleszewa.pl/images/banners
 
 ! * - 3rd Party Blocking Rules - * !
 ||18hd.pl^$third-party
@@ -237,6 +249,7 @@ _res/banner/glowna/
 
 ! * - Site-specific Element Hiding Rules - * !
 24.pl###oglmetka
+4lomza.pl##.bxbanner
 7dni.pila.pl###content-left
 alemiasto.pl##[class^="ad"]
 benchmark.pl###adblock-info
@@ -250,6 +263,7 @@ fronda.pl##.small-info
 gazeta-wiesci.pl##.widget.widget_text
 gry-online.pl##[id^="teaser_cnt"]
 gry-online.poszkole.pl##FOOTER
+informacjelokalne.pl##[src^="http://www.informacjelokalne.pl/images/reklama"]
 kartuzy.info##[id^="baner"]
 koscian.net##[class^="banery"]
 lubin.pl###banner
