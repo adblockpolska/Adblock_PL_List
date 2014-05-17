@@ -120,7 +120,6 @@ _res/banner/glowna/
 ##[id^="header-banner"]
 ##[id^="id_reklama_"]
 ##[id^="p_p_id_advert"]
-##[id^="popup"]
 ##[id^="prv_main"]
 ##[id^="prvAdd-"]
 ##[id^="prvCommercial"]
