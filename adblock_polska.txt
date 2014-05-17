@@ -186,7 +186,6 @@ _res/banner/glowna/
 ||adsearch.pl
 ||adstat.4u.pl
 ||adtaily.pl
-||adtify.pl
 ||adv.wp.pl
 ||adview.pl
 ||atmcdn.pl/*Adserver/
@@ -220,6 +219,7 @@ _res/banner/glowna/
 ||napisy24.pl/files/*
 ||napisy24.pl/images/190x260x_
 ||nextclick.pl
+||panel.adtify.pl
 ||pclab.pl/img/extra/*_top.png
 ||pclab.pl/img/extra/*_left.jpg
 ||pclab.pl/img/extra/*_right.jpg
