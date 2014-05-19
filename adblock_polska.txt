@@ -218,7 +218,6 @@ _res/banner/glowna/
 ||napisy24.pl/files/*
 ||napisy24.pl/images/190x260x_
 ||nextclick.pl
-||panel.adtify.pl
 ||pclab.pl/img/extra/*_top.png
 ||pclab.pl/img/extra/*_left.jpg
 ||pclab.pl/img/extra/*_right.jpg
@@ -253,6 +252,7 @@ _res/banner/glowna/
 ||leadsign.pl/router/^$third-party
 ||netsales.pl^$third-party
 ||novem.pl^$third-party
+||panel.adtify.pl^$third-party
 ||salesmanago.pl^$third-party
 ||sfd.pl$third-party
 ||spot.o2.pl$third-party
