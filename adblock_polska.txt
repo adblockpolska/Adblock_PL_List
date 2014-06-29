@@ -46,6 +46,7 @@
 /media/banner/*.gif
 /miejsce-na-reklame
 /pagead/ads?
+/pasek-ceneo
 /partners/onet/*
 /pixad/img/*
 /photos/adv_
@@ -59,6 +60,7 @@
 /vardata/banery/*
 _1100x200.
 _750x200_
+_baner/980x200
 _banner.png
 _reklama.jpg
 _res/banner/glowna/
@@ -193,6 +195,7 @@ _res/banner/glowna/
 ||bankier.pl/gfx/ad
 ||bochnianin.pl/foto/pasek/
 ||boksy.onet.pl
+||brodnica.net/banery/
 ||brwinow.com/images/banners
 ||cdn.sterta.pl
 ||comperialead.pl/widget/
@@ -286,6 +289,7 @@ newsweek.pl##[class^="Block-Banner"]
 optyczne.pl###warning
 orneta.net##.lof-container
 pclab.pl##[href^="http://kropka.onet.pl/redir/redir.rd?banner"]
+profil.wp.pl##.bxAdv
 proline.pl###layer_top
 purepc.pl##[class$="reklama"]
 sadistic.pl/pics/c57d81558fed.jpg
