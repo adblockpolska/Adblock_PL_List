@@ -167,7 +167,7 @@ _res/banner/glowna/
 ! * - Whitelist - * !
 @@/player/vidAS=pre_roll
 @@/vod/reklamy/WIZERUNEK.mp4
-@@||adv.wp.pl/RM/Box/$domain=pudelek.pl|wp.pl|wp.tv
+@@||adv.wp.pl/RM/Box/$domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv
 @@||iap.pl/ads/
 @@||informacjelokalne.pl/images/storiesflash/czolowka
 @@||ipla.$domain=ipla.tv
@@ -175,8 +175,8 @@ _res/banner/glowna/
 @@||ocdn.eu/files/pulscms/*.png
 @@||pah.org.pl
 @@||legnica.eu/uploads/pub/ads_files/
-@@||rek.www.wp.pl/pliki/$script,domain=pudelek.pl|wp.pl|wp.tv
-@@||rek.www.wp.pl/vad.xml?$domain=pudelek.pl|wp.pl|wp.tv
+@@||rek.www.wp.pl/pliki/$script,domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv
+@@||rek.www.wp.pl/vad.xml?$domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv
 @@||reklama.onet.pl*logo*png
 @@||smartadserver.com$domain=get.x-link.pl
 @@||tvn.adocean.pl/files/js/ado.js$domain=ekstraklasa.tv
