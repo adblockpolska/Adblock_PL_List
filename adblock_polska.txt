@@ -31,6 +31,7 @@
 /banery/*750x200
 /banery/*980x90
 /banery/*980x100
+/banery/sklep_banner
 /banery-reklamowe/
 /boxReklama
 /emisje*.swf
@@ -53,13 +54,14 @@
 /player/VASTLoader.swf
 /popupredir/*$popup
 /rek/ifr/*
+/reklama_banery/
 /reklamy/*
 /storiesflash*.swf
 /storiesflash/baner
 /upload/banery_pl/*
 /vardata/banery/*
 _1100x200.
-_750x200_
+_750x200
 _750x700.swf
 _baner/980x200
 _banner.png
