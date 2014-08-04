@@ -122,6 +122,7 @@ _res/banner/glowna/
 ##.rrestbaner
 ##.sky_layer
 ##.teaser_cnt
+##.tvn-advertisement
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
 ##[id^="aswift_"]
