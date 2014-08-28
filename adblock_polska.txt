@@ -108,6 +108,7 @@ _res/banner/glowna/
 ##.bnMiddle
 ##.drutexban
 ##.flexbanneritem
+##.forceRefresh disableScreeningClick adoHide adoSlv OnTop
 ##.google_468x60
 ##.index_banner
 ##.main-tbaner
