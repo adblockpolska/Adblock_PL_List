@@ -170,7 +170,7 @@ _res/banner/glowna/
 ##[src^="reklama"]
 
 ! * - Whitelist - * !
-@@/advertisingmodule.$domain=tvn.pl
+@@/advertisingmodule.$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@/player/vidAS=pre_roll
 @@/vod/reklamy/WIZERUNEK.mp4
 @@||admin.brightcove.com$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
@@ -205,7 +205,6 @@ _res/banner/glowna/
 ||adtaily.pl
 ||adv.wp.pl
 ||adview.pl
-||atmcdn.pl/*Adserver/
 ||banery.bai.pl
 ||bankier.pl/gfx/ad
 ||bochnianin.pl/foto/pasek/
