@@ -307,6 +307,7 @@ optyczne.pl###warning
 orneta.net##.lof-container
 pclab.pl##[href^="http://kropka.onet.pl/redir/redir.rd?banner"]
 pinterest.com##[class="message messageUnauth"]
+player.pl##.tvn-advertisement
 popularnie.pl###gold-header
 press.pl###topBanner
 profil.wp.pl##.bxAdv
