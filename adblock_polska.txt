@@ -198,6 +198,7 @@ _res/banner/glowna/
 ||ad.sterta.pl
 ||adblockdetector.com^$script
 ||adkontekst.pl
+||adocean.pl^$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 ||ads.trojmiasto.pl
 ||adsearch.pl
 ||adtaily.pl
