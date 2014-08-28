@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 07 August 2014
+! Last modified: 28 August 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -125,6 +125,7 @@ _res/banner/glowna/
 ##.tvn-advertisement
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
+##[id^="adocean"]
 ##[id^="aswift_"]
 ##[id^="billboard"]
 ##[id^="CSPNONK"]
@@ -165,6 +166,7 @@ _res/banner/glowna/
 ##[class^="topBarContainer"]
 ##[class$="_750_banner"]
 ##[class$="content_ad"]
+##[src^="http://tvn.adocean.pl/files/"]
 ##[src^="reklama"]
 
 ! * - Whitelist - * !
@@ -222,6 +224,7 @@ _res/banner/glowna/
 ||fm.tuba.pl*prosba.jpg
 ||fwcdn.pl/adv/*
 ||filmweb.pl/welcomeScreenJS?*
+||gemius.pl$third-party,popup
 ||gry-online.pl/im/zmieniarka/
 ||hub.com.pl
 ||img.wiocha.pl/img/gry
@@ -289,6 +292,7 @@ formentorplus.pl##form
 fotosik.pl##.adv
 fronda.pl##.small-info
 gazeta-wiesci.pl##.widget.widget_text
+glamrap.pl##.popup
 gry-online.pl##[id^="teaser_cnt"]
 gry-online.poszkole.pl##FOOTER
 informacjelokalne.pl##[src^="http://www.informacjelokalne.pl/images/reklama"]
@@ -306,10 +310,13 @@ newsweek.pl##[class^="Block-Banner"]
 optyczne.pl###warning
 orneta.net##.lof-container
 pclab.pl##[href^="http://kropka.onet.pl/redir/redir.rd?banner"]
+pinterest.com##[class="message messageUnauth"]
+popularnie.pl###gold-header
 press.pl###topBanner
 profil.wp.pl##.bxAdv
 proline.pl###layer_top
 pudelek.tv###floorBG
+pudelek.tv##[src^="http://adv.wp.pl"]
 purepc.pl##[class$="reklama"]
 repostuj.pl##[class^="warstwa"]
 sadistic.pl/pics/c57d81558fed.jpg
