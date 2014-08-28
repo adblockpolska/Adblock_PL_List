@@ -124,7 +124,6 @@ _res/banner/glowna/
 ##.teaser_cnt
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
-##[id^="adocean"]
 ##[id^="aswift_"]
 ##[id^="billboard"]
 ##[id^="CSPNONK"]
