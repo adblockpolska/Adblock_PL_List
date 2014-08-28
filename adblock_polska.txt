@@ -175,7 +175,7 @@ _res/banner/glowna/
 @@/vod/reklamy/WIZERUNEK.mp4
 @@||admin.brightcove.com$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@||adv.wp.pl/RM/Box/$domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
-@@||atmcdn.pl/*Adserver/$domain=tvn.pl
+@@||atmcdn.pl/*Adserver/$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@||iap.pl/ads/
 @@||informacjelokalne.pl/images/storiesflash/czolowka
 @@||ipla.$domain=ipla.tv
@@ -187,7 +187,7 @@ _res/banner/glowna/
 @@||rek.www.wp.pl/vad.xml?$domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
 @@||rek.www.wp.pl/*pudelek.tv
 @@||reklama.onet.pl*logo*png
-@@||rtax.criteo.com$domain=tvn.pl
+@@||rtax.criteo.com$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@||smartadserver.com$domain=get.x-link.pl
 @@||tvn.adocean.pl^$script,domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@||wp.tv/adv.js$domain=tosiewytnie.pl
