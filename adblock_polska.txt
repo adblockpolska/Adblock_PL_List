@@ -165,7 +165,6 @@ _res/banner/glowna/
 ##[class^="topBarContainer"]
 ##[class$="_750_banner"]
 ##[class$="content_ad"]
-##[src^="http://tvn.adocean.pl/files/"]
 ##[src^="reklama"]
 
 ! * - Whitelist - * !
