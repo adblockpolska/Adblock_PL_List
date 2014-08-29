@@ -231,6 +231,7 @@ _res/banner/glowna/
 ||hub.com.pl
 ||img.wiocha.pl/img/gry
 ||j.o2.pl
+||jelonka.com/flash/
 ||koscian.net/js/scripts.js?
 ||kryptokursy.pl/bnrs/
 ||lokalna24.pl/banery/
@@ -304,6 +305,7 @@ glamrap.pl##.popup
 gry-online.pl##[id^="teaser_cnt"]
 gry-online.poszkole.pl##FOOTER
 informacjelokalne.pl##[src^="http://www.informacjelokalne.pl/images/reklama"]
+jelonka.com##.marconi
 kartuzy.info##[id^="baner"]
 komputerswiat.pl###gz_dso_scroll
 koscian.net##[class^="banery"]
