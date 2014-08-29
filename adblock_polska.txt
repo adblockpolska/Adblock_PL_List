@@ -209,6 +209,7 @@ _res/banner/glowna/
 ||adtaily.pl
 ||adv.wp.pl
 ||adview.pl
+||badanie.pollster.pl$popup
 ||banery.bai.pl
 ||bankier.pl/gfx/ad
 ||bochnianin.pl/foto/pasek/
@@ -260,6 +261,7 @@ _res/banner/glowna/
 
 ! * - 3rd Party Blocking Rules - * !
 ||18hd.pl^$third-party
+||ad.zanox.com$third-party
 ||admailtiser.com^$third-party,popup
 ||adprize.pl^$third-party
 ||afilo.pl^$third-party
