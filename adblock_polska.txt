@@ -102,6 +102,7 @@ _res/banner/glowna/
 ##.advert
 ##.ad_block
 ##.adv_info
+##.advertHolder
 ##.BanerHPBig
 ##.baner_reklama
 ##.banneritem
@@ -246,6 +247,7 @@ _res/banner/glowna/
 ||pino.pl/static/empire/
 ||pocketads.pl
 ||portalprzemyski.pl/wp-content/re/
+||redir.atmcdn.pl*swf$domain=tvn24.pl
 ||rek.www.wp.pl
 ||reklama.osemka.pl
 ||spidersweb.pl/wp-content/themes/new_sw_v2/images/*.swf
