@@ -249,6 +249,7 @@ _res/banner/glowna/
 ||reklama.osemka.pl
 ||spidersweb.pl/wp-content/themes/new_sw_v2/images/*.swf
 ||static.clickonometrics.pl
+||static*jelonka.com
 ||static-chomikuj.pl/serve/
 ||static-kinoman.tv/n*php
 ||tvn.adocean.pl/files/*.swf
@@ -280,7 +281,6 @@ _res/banner/glowna/
 ||panel.adtify.pl^$third-party
 ||spot.o2.pl$third-party
 ||stat24.com$third-party
-||static*jelonka.com$third-party
 
 ! * - Site-specific Element Hiding Rules - * !
 24.pl###oglmetka
