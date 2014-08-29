@@ -109,6 +109,7 @@ _res/banner/glowna/
 ##.banneritem
 ##.banner-block
 ##.box.player.special
+##.boxadtop
 ##.bxTBaner
 ##.billboardWrapper
 ##.bnMiddle
