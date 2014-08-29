@@ -250,6 +250,7 @@ _res/banner/glowna/
 ||static.clickonometrics.pl
 ||static-chomikuj.pl/serve/
 ||static-kinoman.tv/n*php
+||tvn.adocean.pl/files/*.swf
 ||video.vid4u.org
 ||wrzuta.pl/ads
 ||x.interia.pl/*.ad.
