@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 28 August 2014
+! Last modified: 29 August 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -97,6 +97,7 @@ _res/banner/glowna/
 ###top_banners
 ###top-lead
 ##.abwarn
+##.adoHide adoSlv OnTop
 ##.adSrodek
 ##.advert
 ##.ad_block
