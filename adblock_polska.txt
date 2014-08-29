@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 29 August 2014
+! Last modified: 30 August 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -94,6 +94,7 @@ _res/banner/glowna/
 ###slot_ad_billboard
 ###slot_ad_billboard2
 ###sponsoring
+###top_ad
 ###top_banners
 ###top-lead
 ##.abwarn
@@ -255,6 +256,8 @@ _res/banner/glowna/
 ||static*jelonka.com
 ||static-chomikuj.pl/serve/
 ||static-kinoman.tv/n*php
+||supernowosci24.pl/openx/www/delivery/
+||supernowosci24.pl/wp-content/uploads/pliki/*swf
 ||tvn.adocean.pl/files/*.swf
 ||video.vid4u.org
 ||wrzuta.pl/ads
@@ -269,6 +272,7 @@ _res/banner/glowna/
 ||admailtiser.com^$third-party,popup
 ||adprize.pl^$third-party
 ||afilo.pl^$third-party
+||bbcdn.go.arbopl.bbelements.com$third-party
 ||clangames.pl^$third-party
 ||contextad.pl^$third-party
 ||dobryinteres.pl^&$third-party
@@ -335,6 +339,9 @@ purepc.pl##[class$="reklama"]
 repostuj.pl##[class^="warstwa"]
 sadistic.pl/pics/c57d81558fed.jpg
 serwislokalny.com##.banner
+supernowosci24.pl###notificationbar
+supernowosci24.pl###ocena
+supernowosci24.pl###wideSidebar
 telepolis.pl##.b_750
 telepolis.pl##.wiadomosci_lista_div
 telepolis.pl##[style="text-align:center; width:369px; height:285px;"]
