@@ -15,6 +15,7 @@
 .pl/*/ads/
 .pl/data/banners
 .pl/images/baner-
+.pl/images/banners/*swf
 .pl/images/banners/reklama
 .pl/images/stories/baner
 .pl/images/stories/banner
@@ -145,6 +146,7 @@ _res/banner/glowna/
 ##[id^="sponsors-"]
 ##[class^="a_box"]
 ##[class^="adocean"]
+##[class^="adoHide"]
 ##[class^="ads ads"]
 ##[class^="adv-home"]
 ##[class^="adv-ph-"]
@@ -223,7 +225,6 @@ _res/banner/glowna/
 ||fm.tuba.pl*prosba.jpg
 ||fwcdn.pl/adv/*
 ||filmweb.pl/welcomeScreenJS?*
-||gemius.pl$third-party,popup
 ||gry-online.pl/im/zmieniarka/
 ||hub.com.pl
 ||img.wiocha.pl/img/gry
@@ -263,8 +264,11 @@ _res/banner/glowna/
 ||clangames.pl^$third-party
 ||contextad.pl^$third-party
 ||dobryinteres.pl^&$third-party
+||gemius.pl$third-party,popup
+||gg.adocean.pl$third-party
 ||glossymedia.pl^$third-party
 ||incontext.pl^$third-party
+||inevitablenesses.realmoney.pl$third-party
 ||intextad.net^$third-party
 ||leadsign.pl/router/^$third-party
 ||netsales.pl^$third-party
@@ -296,6 +300,7 @@ gry-online.pl##[id^="teaser_cnt"]
 gry-online.poszkole.pl##FOOTER
 informacjelokalne.pl##[src^="http://www.informacjelokalne.pl/images/reklama"]
 kartuzy.info##[id^="baner"]
+komputerswiat.pl###gz_dso_scroll
 koscian.net##[class^="banery"]
 kryptokursy.pl##[style="width: 200px; height: 200px; margin: 2px 0px 2px -7px; display: block;"]
 lubin.pl###banner
@@ -310,7 +315,7 @@ optyczne.pl###warning
 orneta.net##.lof-container
 pclab.pl##[href^="http://kropka.onet.pl/redir/redir.rd?banner"]
 pinterest.com##[class="message messageUnauth"]
-player.pl##.tvn-advertisement
+player.pl##[id^="ado-"]
 popularnie.pl###gold-header
 press.pl###topBanner
 profil.wp.pl##.bxAdv
@@ -324,6 +329,7 @@ serwislokalny.com##.banner
 telepolis.pl##.b_750
 telepolis.pl##.wiadomosci_lista_div
 telepolis.pl##[style="text-align:center; width:369px; height:285px;"]
+tvn24.pl##[class^="adoHide"]
 wp.pl##[id^="adv"]
 wp.tv##.infoAB
 wp.tv##[src^="http://adv.wp.pl/"]
