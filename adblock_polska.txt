@@ -73,6 +73,7 @@ _res/banner/glowna/
 
 ! * - General Element Hiding Rules - * !
 ###AdAreaV2
+###AdAreaV3
 ###adv_bottom
 ###baner300x250
 ###baner635x85
