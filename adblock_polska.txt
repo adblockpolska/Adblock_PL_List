@@ -72,8 +72,6 @@ _res/banner/glowna/
 -reklama.gif
 
 ! * - General Element Hiding Rules - * !
-###AdAreaV2
-###AdAreaV3
 ###adv_bottom
 ###baner300x250
 ###baner635x85
@@ -132,6 +130,7 @@ _res/banner/glowna/
 ##.rrestbaner
 ##.sky_layer
 ##.teaser_cnt
+##[id^="AdArea"]
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
 ##[id^="aswift_"]
