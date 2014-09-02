@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 30 August 2014
+! Last modified: 02 September 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -250,7 +250,7 @@ _res/banner/glowna/
 ||pino.pl/static/empire/
 ||pocketads.pl
 ||portalprzemyski.pl/wp-content/re/
-||redir.atmcdn.pl*swf$domain=tvn24.pl
+||redir.atmcdn.pl*swf$domain=tvn24.pl|tvn24bis.pl
 ||rek.www.wp.pl
 ||reklama.osemka.pl
 ||spidersweb.pl/wp-content/themes/new_sw_v2/images/*.swf
@@ -344,6 +344,7 @@ serwislokalny.com##.banner
 supernowosci24.pl###notificationbar
 supernowosci24.pl###ocena
 supernowosci24.pl###wideSidebar
+swidniczka.com##.marconi
 telepolis.pl##.b_750
 telepolis.pl##.wiadomosci_lista_div
 telepolis.pl##[style="text-align:center; width:369px; height:285px;"]
