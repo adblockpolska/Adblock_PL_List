@@ -131,6 +131,7 @@ _res/banner/glowna/
 ##.sky_layer
 ##.teaser_cnt
 ##[id^="AdArea"]
+##[id^=ads300_100"]
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
 ##[id^="aswift_"]
@@ -239,6 +240,7 @@ _res/banner/glowna/
 ||jelonka.com/flash/
 ||koscian.net/js/scripts.js?
 ||kryptokursy.pl/bnrs/
+||legio24.pl*/baner
 ||lokalna24.pl/banery/
 ||lubartow24.pl/f*_bok.
 ||napisy24.pl/files/*
