@@ -131,7 +131,7 @@ _res/banner/glowna/
 ##.sky_layer
 ##.teaser_cnt
 ##[id^="AdArea"]
-##[id^=ads300_100"]
+##[id^="ads300_100"]
 ##[id^="ad_gora"]
 ##[id^="ad-rectangle"]
 ##[id^="aswift_"]
