@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 02 September 2014
+! Last modified: 03 September 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -183,7 +183,7 @@ _res/banner/glowna/
 @@/vod/reklamy/WIZERUNEK.mp4
 @@||admin.brightcove.com$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@||adocean.pl/*xml$domain=player.pl
-@@||adv.wp.pl/RM/Box/$domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
+@@||adv.wp.pl/RM/Box/$domain=autokrata.pl|pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
 @@||atmcdn.pl/*Adserver/$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@||iap.pl/ads/
 @@||informacjelokalne.pl/images/storiesflash/czolowka
@@ -192,8 +192,8 @@ _res/banner/glowna/
 @@||ocdn.eu/files/pulscms/*.png
 @@||pah.org.pl
 @@||legnica.eu/uploads/pub/ads_files/
-@@||rek.www.wp.pl/pliki/$script,domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
-@@||rek.www.wp.pl/vad.xml?$domain=pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
+@@||rek.www.wp.pl/pliki/$script,domain=autokrata.pl|pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
+@@||rek.www.wp.pl/vad.xml?$domain=autokrata.pl|pudelek.pl|pudelek.tv|wp.pl|wp.tv|wrzuta.pl
 @@||rek.www.wp.pl/*pudelek.tv
 @@||reklama.onet.pl*logo*png
 @@||rtax.criteo.com$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
@@ -203,6 +203,7 @@ _res/banner/glowna/
 
 ! * - 1st Party Blocking Rules & Ad-servers - * !
 ||a.techmaniak.pl/www/images/
+||activepl.tv/rek/
 ||ad.filmweb.pl
 ||ad.gazeta.pl
 ||ad.prv.pl
@@ -298,6 +299,7 @@ _res/banner/glowna/
 24.pl###oglmetka
 4lomza.pl##.bxbanner
 7dni.pila.pl###content-left
+activepl.tv##[src$=".swf"]
 alemiasto.pl##[class^="ad"]
 appmaniak.pl###bannerTop
 autocentrum.pl##[style="float: right; width: 300px; height: 250px; margin-left: 5px; display: block;"]
@@ -360,3 +362,6 @@ wp.pl##[id^="adv"]
 wp.tv##.infoAB
 wp.tv##[src^="http://adv.wp.pl/"]
 xn--portalmawa-g0b.pl##[id^="xc-98-primary"]
+zarabiara.pl##.new_adbanners
+zarabiara.pl##.new_adtaily
+
