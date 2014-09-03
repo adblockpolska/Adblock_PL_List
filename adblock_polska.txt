@@ -133,6 +133,7 @@ _res/banner/glowna/
 ##.site spaced centered ad
 ##.sky_layer
 ##.teaser_cnt
+##.theAd
 ##[id^="AdArea"]
 ##[id^="ads300_100"]
 ##[id^="ad_gora"]
@@ -362,7 +363,6 @@ purepc.pl##[class$="reklama"]
 repostuj.pl##[class^="warstwa"]
 sadistic.pl/pics/c57d81558fed.jpg
 serwislokalny.com##.banner
-sportowefakty.pl##.centered spaced
 supernowosci24.pl###notificationbar
 supernowosci24.pl###ocena
 supernowosci24.pl###wideSidebar
