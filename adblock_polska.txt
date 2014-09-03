@@ -335,6 +335,7 @@ kryptokursy.pl##[style="width: 200px; height: 200px; margin: 2px 0px 2px -7px; d
 lubin.pl###banner
 miedzyrzec.info##[id^="baner"]
 moszczenica.info##.bannergroup
+mpolska24.pl##.tplAds
 napisy24.pl###baner_300_250
 napisy24.pl##.header_210
 narodowcy.net##.custom
@@ -350,6 +351,7 @@ press.pl###topBanner
 profil.wp.pl##.bxAdv
 proline.pl###layer_top
 pudelek.tv###floorBG
+pudelek.tv##.npp-close
 pudelek.tv##[id^="adv"]
 pudelek.tv##[src^="http://adv.wp.pl"]
 purepc.pl##[class$="reklama"]
