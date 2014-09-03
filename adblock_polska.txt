@@ -225,6 +225,7 @@ _res/banner/glowna/
 ||boksy.onet.pl
 ||brodnica.net/banery/
 ||brwinow.com/images/banners
+||cba.pl/cba.gif
 ||cdn.sterta.pl
 ||cpm24.pl/baner/
 ||comperialead.pl/widget/
@@ -347,6 +348,7 @@ press.pl###topBanner
 profil.wp.pl##.bxAdv
 proline.pl###layer_top
 pudelek.tv###floorBG
+pudelek.tv##[id^="adv"]
 pudelek.tv##[src^="http://adv.wp.pl"]
 purepc.pl##[class$="reklama"]
 repostuj.pl##[class^="warstwa"]
