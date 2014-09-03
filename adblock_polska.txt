@@ -250,6 +250,7 @@ _res/banner/glowna/
 ||lokalna24.pl/banery/
 ||lubartow24.pl/f*_bok.
 ||moneystrategy.info/b/
+||moviechannel.pl
 ||napisy24.pl/files/*
 ||napisy24.pl/images/190x260x_
 ||pclab.pl/img/extra/*_top.png
@@ -320,6 +321,7 @@ formentorplus.pl##form
 fotosik.pl##.adv
 fronda.pl##.small-info
 fukk.pl###comment-captcha
+gazeta.pl##[class^="mod mod_cpCommerce"]
 gazeta-wiesci.pl##.widget.widget_text
 glamrap.pl##.popup
 gry-online.pl##[id^="teaser_cnt"]
