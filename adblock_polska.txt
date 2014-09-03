@@ -108,6 +108,7 @@ _res/banner/glowna/
 ##.baner_reklama
 ##.banneritem
 ##.banner-block
+##.box advertisement
 ##.box.player.special
 ##.boxadtop
 ##.bxTBaner
@@ -203,6 +204,7 @@ _res/banner/glowna/
 
 ! * - 1st Party Blocking Rules & Ad-servers - * !
 ||a.techmaniak.pl/www/images/
+||abc7.pl
 ||activepl.tv/rek/
 ||ad.filmweb.pl
 ||ad.gazeta.pl
@@ -224,9 +226,11 @@ _res/banner/glowna/
 ||brodnica.net/banery/
 ||brwinow.com/images/banners
 ||cdn.sterta.pl
+||cpm24.pl/baner/
 ||comperialead.pl/widget/
 ||csr.onet.pl
 ||debica24.eu/system/45/assets/000/00*baner
+||doladowanko.pl/banners/
 ||dot.wp.pl
 ||ec.bankier.pl/file/
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
@@ -244,6 +248,7 @@ _res/banner/glowna/
 ||legio24.pl*/baner
 ||lokalna24.pl/banery/
 ||lubartow24.pl/f*_bok.
+||moneystrategy.info/b/
 ||napisy24.pl/files/*
 ||napisy24.pl/images/190x260x_
 ||pclab.pl/img/extra/*_top.png
@@ -313,6 +318,7 @@ filmweb.pl##.relative.iplaParent
 formentorplus.pl##form
 fotosik.pl##.adv
 fronda.pl##.small-info
+fukk.pl###comment-captcha
 gazeta-wiesci.pl##.widget.widget_text
 glamrap.pl##.popup
 gry-online.pl##[id^="teaser_cnt"]
