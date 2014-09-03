@@ -93,6 +93,7 @@ _res/banner/glowna/
 ###slideshow_minibanner
 ###slot_ad_billboard
 ###slot_ad_billboard2
+###sponsDiv
 ###sponsoring
 ###top_ad
 ###top_banners
