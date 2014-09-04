@@ -11,6 +11,7 @@
 
 ! * - General Blocking Rules - * !
 .info/images/banners/
+.goldbachpoland.
 .pl/*/adds/
 .pl/*/ads/
 .pl/data/banners
@@ -99,7 +100,7 @@ _res/banner/glowna/
 ###top_banners
 ###top-lead
 ##.abwarn
-##.adoHide adoSlv OnTop
+##.adoHide.adoSlv.OnTop
 ##.adSrodek
 ##.advert
 ##.ad_block
@@ -117,7 +118,7 @@ _res/banner/glowna/
 ##.bnMiddle
 ##.drutexban
 ##.flexbanneritem
-##.forceRefresh disableScreeningClick adoHide adoSlv OnTop
+##.forceRefresh.disableScreeningClick.adoHide.adoSlv.OnTop
 ##.google_468x60
 ##.index_banner
 ##.main-tbaner
@@ -130,7 +131,7 @@ _res/banner/glowna/
 ##.reklamy_banner
 ##.results__entry--ads
 ##.rrestbaner
-##.site spaced centered ad
+##.site.spaced.centered.ad
 ##.sky_layer
 ##.teaser_cnt
 ##.theAd
@@ -363,6 +364,7 @@ purepc.pl##[class$="reklama"]
 repostuj.pl##[class^="warstwa"]
 sadistic.pl/pics/c57d81558fed.jpg
 serwislokalny.com##.banner
+sportowefakty.pl##.centered.spaced
 supernowosci24.pl###notificationbar
 supernowosci24.pl###ocena
 supernowosci24.pl###wideSidebar
@@ -371,7 +373,7 @@ telepolis.pl##.b_750
 telepolis.pl##.wiadomosci_lista_div
 telepolis.pl##[style="text-align:center; width:369px; height:285px;"]
 tvn24.pl##[class^="adoHide"]
-tvp.pl##.rectangleWrapper hidden-phone
+tvp.pl##.rectangleWrapper.hidden-phone
 twojapogoda.pl##.billboard
 walbrzyszek.com##.marconi
 walbrzyszek.com##[style="text-align:center;padding-bottom:15px;"]
