@@ -110,7 +110,8 @@ _res/banner/glowna/
 ##.baner_reklama
 ##.banneritem
 ##.banner-block
-##.box advertisement
+##.box.ad.filled
+##.box.advertisement
 ##.box.player.special
 ##.boxadtop
 ##.bxTBaner
@@ -349,6 +350,7 @@ naszamlawa.pl##[id^="fancybox-"]
 newsweek.pl##[class^="Block-Banner"]
 optyczne.pl###warning
 orneta.net##.lof-container
+pclab.pl##[href^="http://e.clk.onet.pl"]
 pclab.pl##[href^="http://kropka.onet.pl/redir/redir.rd?banner"]
 pinterest.com##[class="message messageUnauth"]
 player.pl##[id^="ado-"]
