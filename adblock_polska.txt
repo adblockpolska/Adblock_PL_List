@@ -71,6 +71,7 @@ _reklama.jpg
 _res/banner/glowna/
 -lokazje.
 -reklama.gif
+bannerad.png
 
 ! * - General Element Hiding Rules - * !
 ###adv_bottom
@@ -398,6 +399,7 @@ walbrzyszek.com##[style="position:fixed;z-index:9999998;left:0;top:0;width:100%;
 wiocha.pl###ad4sc
 wirtualnemedia.pl###article_promo
 wp.pl##.adv
+wp.pl##[href^="http://emisja.contentstream.pl/_/"]
 wp.pl##[id^="adv"]
 wp.tv##.infoAB
 wp.tv##[src^="http://adv.wp.pl/"]
