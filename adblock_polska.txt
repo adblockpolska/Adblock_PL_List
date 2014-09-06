@@ -328,6 +328,7 @@ alemiasto.pl##[class^="ad"]
 appmaniak.pl###bannerTop
 autocentrum.pl##[style="float: right; width: 300px; height: 250px; margin-left: 5px; display: block;"]
 autocentrum.pl##[style="float:right;width:300px;height:250px;margin-left:5px;"]
+axn.pl##.region.region-header-ad-space
 benchmark.pl###adblock-info
 bezuzyteczna.pl##.special
 bochnianin.pl###slideText
