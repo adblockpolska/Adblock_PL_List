@@ -278,6 +278,7 @@ bannerad.png
 ||reklama.osemka.pl
 ||spidersweb.pl/wp-content/themes/new_sw_v2/images/*.swf
 ||static.clickonometrics.pl
+||static.fakt.pl
 ||static*jelonka.com
 ||static-chomikuj.pl/serve/
 ||static-kinoman.tv/n*php
