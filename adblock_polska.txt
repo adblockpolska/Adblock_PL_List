@@ -62,13 +62,15 @@
 /storiesflash/baner
 /upload/banery_pl/*
 /vardata/banery/*
-_1100x200.
+_1100x200
+_300x700
 _750x200
-_750x700.
+_750x700
 _baner/980x200
 _banner.png
 _reklama.jpg
 _res/banner/glowna/
+_werbung_
 -lokazje.
 -reklama.gif
 bannerad.png
@@ -245,6 +247,7 @@ bannerad.png
 ||dot.wp.pl
 ||ec.bankier.pl/file/
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
+||eurotax.pl/img/*.swf
 ||extra-plonsk.pl/images/banners/
 ||fm.tuba.pl*prosba.jpg
 ||fwcdn.pl/adv/*
@@ -291,6 +294,7 @@ bannerad.png
 ||x.interia.pl/*.ad.
 ||x.o2.pl
 ||xxxxxxx.pl
+||zasiltelefon.com.pl
 ||zycie-pleszewa.pl/images/banners
 
 ! * - 3rd Party Blocking Rules - * !
@@ -383,6 +387,8 @@ repostuj.pl##[class^="warstwa"]
 sadistic.pl/pics/c57d81558fed.jpg
 se.pl##[class^="item art_reklama"]
 serwislokalny.com##.banner
+spidersweb.pl##four.columns.hide-for-small
+sport.pl##.mod.mod_cpCommerce.small
 sportowefakty.pl##.centered.spaced
 supernowosci24.pl###notificationbar
 supernowosci24.pl###ocena
