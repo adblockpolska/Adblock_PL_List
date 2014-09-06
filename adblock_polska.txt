@@ -349,6 +349,8 @@ fotosik.pl##.adv
 fronda.pl##.small-info
 fukk.pl###comment-captcha
 gazeta.pl##[class^="mod mod_cpCommerce"]
+gazetapolska.pl##[style="float: left; width: 980px; display: block;"]
+gazetapolska.pl##[style="float: left;width:980px;"]
 gazeta-wiesci.pl##.widget.widget_text
 glamrap.pl##.popup
 gry-online.pl##[id^="teaser_cnt"]
