@@ -387,7 +387,8 @@ repostuj.pl##[class^="warstwa"]
 sadistic.pl/pics/c57d81558fed.jpg
 se.pl##[class^="item art_reklama"]
 serwislokalny.com##.banner
-spidersweb.pl##four.columns.hide-for-small
+spidersweb.pl##.four.columns.hide-for-small
+spidersweb.pl##.g.g-16
 sport.pl##.mod.mod_cpCommerce.small
 sportowefakty.pl##.centered.spaced
 supernowosci24.pl###notificationbar
