@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 06 September 2014
+! Last modified: 08 September 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -141,6 +141,7 @@ bannerad.png
 ##.sky_layer
 ##.teaser_cnt
 ##.theAd
+##.widget.widget-ad.widget-ad-sidebar-top
 ##[id^="AdArea"]
 ##[id^="ads300_100"]
 ##[id^="ad_gora"]
@@ -276,6 +277,7 @@ bannerad.png
 ||pino.pl/static/empire/
 ||pocketads.pl
 ||portalprzemyski.pl/wp-content/re/
+||realmoney.pl
 ||redir.atmcdn.pl*swf$domain=tvn24.pl|tvn24bis.pl
 ||rek.www.wp.pl
 ||reklama.osemka.pl
@@ -294,6 +296,7 @@ bannerad.png
 ||x.interia.pl/*.ad.
 ||x.o2.pl
 ||xxxxxxx.pl
+||zambrow.org/firmy/grafika/banner
 ||zasiltelefon.com.pl
 ||zycie-pleszewa.pl/images/banners
 
@@ -312,7 +315,6 @@ bannerad.png
 ||gg.adocean.pl$third-party
 ||glossymedia.pl^$third-party
 ||incontext.pl^$third-party
-||inevitablenesses.realmoney.pl$third-party
 ||intextad.net^$third-party
 ||leadsign.pl/router/^$third-party
 ||netsales.pl^$third-party
@@ -355,6 +357,8 @@ gazeta-wiesci.pl##.widget.widget_text
 glamrap.pl##.popup
 gry-online.pl##[id^="teaser_cnt"]
 gry-online.poszkole.pl##FOOTER
+groupon.pl###spotlight
+groupon.pl###sub_dlg
 informacjelokalne.pl##[src^="http://www.informacjelokalne.pl/images/reklama"]
 jelonka.com##.marconi
 kartuzy.info##[id^="baner"]
@@ -370,8 +374,10 @@ napisy24.pl##.header_210
 narodowcy.net##.custom
 naszamlawa.pl##[id^="fancybox-"]
 newsweek.pl##[class^="Block-Banner"]
+nudziara.pl###post.format_post.nudziara.masonry-brick
 optyczne.pl###warning
 orneta.net##.lof-container
+oxforddictionaries.com##.responsive_cell_whole
 pclab.pl##[href^="http://e.clk.onet.pl"]
 pclab.pl##[href^="http://kropka.onet.pl/redir/redir.rd?banner"]
 pinterest.com##[class="message messageUnauth"]
@@ -416,6 +422,8 @@ wp.tv##.infoAB
 wp.tv##[src^="http://adv.wp.pl/"]
 wysokieobcasy.pl##.c1
 xn--portalmawa-g0b.pl##[id^="xc-98-primary"]
+zambrow.org##.adv
+zambrow.org##.bannerRotator
 zarabiara.pl##.new_adbanners
 zarabiara.pl##.new_adtaily
 
