@@ -252,6 +252,7 @@ bannerad.png
 ||ecache*.cdn.onet.pl/suso/?host=rtvnmw52e.mm.onet.pl
 ||eurotax.pl/img/*.swf
 ||extra-plonsk.pl/images/banners/
+||fakty-wiadomosci.pl
 ||fm.tuba.pl*prosba.jpg
 ||fwcdn.pl/adv/*
 ||filmweb.pl/welcomeScreenJS?*
@@ -271,6 +272,7 @@ bannerad.png
 ||myao.adocean.pl$domain=tvp.pl
 ||napisy24.pl/files/*
 ||napisy24.pl/images/190x260x_
+||partner.vinemo.pl
 ||pclab.pl/img/extra/*_top.png
 ||pclab.pl/img/extra/*_left.jpg
 ||pclab.pl/img/extra/*_right.jpg
@@ -294,6 +296,9 @@ bannerad.png
 ||superwiadomosci24.pl
 ||tvn.adocean.pl/files/*.swf
 ||video.vid4u.org
+||wiadomosci-fakty.pl
+||wiadomosci-kraj.pl
+||wiadomosci-net.pl
 ||wrzuta.pl/ads
 ||x.interia.pl/*.ad.
 ||x.o2.pl
