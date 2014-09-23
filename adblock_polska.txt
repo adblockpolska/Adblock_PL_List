@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 21 September 2014
+! Last modified: 23 September 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -265,6 +265,7 @@ washa_reklama
 ||infogazeta.pl
 ||j.o2.pl
 ||jelonka.com/flash/
+||komputerswiat.pl/static/v1/gfx/additional_sections/lg/background
 ||koscian.net/js/scripts.js?
 ||kryptokursy.pl/bnrs/
 ||legio24.pl*/baner
@@ -374,7 +375,11 @@ informacjelokalne.pl##[src^="http://www.informacjelokalne.pl/images/reklama"]
 iv.pl###FlyingLayer
 jelonka.com##.marconi
 kartuzy.info##[id^="baner"]
+komputerswiat.pl###ks_bezpieczenstwo_podaj_dalej_1048x100
 komputerswiat.pl###gz_dso_scroll
+komputerswiat.pl##.ncwAdCommon.ncwAd1
+komputerswiat.pl##.self_rectangle
+komputerswiat.pl##.smart_baner.billboard
 koscian.net##[class^="banery"]
 kryptokursy.pl##[style="width: 200px; height: 200px; margin: 2px 0px 2px -7px; display: block;"]
 lubin.pl###banner
@@ -436,6 +441,7 @@ wp.pl##[href^="http://emisja.contentstream.pl/_/"]
 wp.pl##[id^="adv"]
 wp.tv##.infoAB
 wp.tv##[src^="http://adv.wp.pl/"]
+wyborcza.biz##.mod.mod_cpCommerce.small
 wysokieobcasy.pl##.c1
 xn--portalmawa-g0b.pl##[id^="xc-98-primary"]
 zambrow.org##.adv
