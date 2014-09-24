@@ -8,6 +8,7 @@
 ! Report problems or unblocked ads to adblockpolska@gmail.com
 ! Thanks to Adblocklist.org and Niecko.pl for inspiration!
 ! Works best with EasyList - be sure to subscribe it as well!
+! For even better ad blocking, make sure to install Anti-Adblock Killer by Reek: https://github.com/reek/anti-adblock-killer
 
 ! * - General Blocking Rules - * !
 .info/images/banners/
