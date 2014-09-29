@@ -131,7 +131,6 @@ washa_reklama
 ##.bnMiddle
 ##.drutexban
 ##.flexbanneritem
-##.forceRefresh.disableScreeningClick.adoHide.adoSlv.OnTop
 ##.google_468x60
 ##.index_banner
 ##.main-tbaner
@@ -280,7 +279,6 @@ washa_reklama
 ||lubartow24.pl/f*_bok.
 ||moneystrategy.info/b/
 ||moviechannel.pl
-||myao.adocean.pl$domain=tvp.pl
 ||napisy24.pl/files/*
 ||napisy24.pl/images/190x260x_
 ||partner.vinemo.pl
@@ -306,7 +304,6 @@ washa_reklama
 ||supernowosci24.pl/openx/www/delivery/
 ||supernowosci24.pl/wp-content/uploads/pliki/*swf
 ||superwiadomosci24.pl
-||tvn.adocean.pl/files/*.swf
 ||video.vid4u.org
 ||wiadomosci-fakty.pl
 ||wiadomosci-kraj.pl
@@ -333,7 +330,6 @@ washa_reklama
 ||cudne.pl^$third-party
 ||dobryinteres.pl^&$third-party
 ||gemius.pl$third-party,popup
-||gg.adocean.pl$third-party
 ||glossymedia.pl^$third-party
 ||incontext.pl^$third-party
 ||intextad.net^$third-party
@@ -372,7 +368,6 @@ filmweb.pl##.relative.iplaParent
 formentorplus.pl##form
 fotosik.pl##.adv
 fronda.pl##.small-info
-fukk.pl###comment-captcha
 gazeta.pl##[class^="mod mod_cpCommerce"]
 gazetapolska.pl##[style="float: left; width: 980px; display: block;"]
 gazetapolska.pl##[style="float: left;width:980px;"]
@@ -409,7 +404,6 @@ newsweek.pl##[href^="http://www.agito.pl/ofertadnia?"]
 nocoty.pl###slider300Wrapper
 nudziara.pl###post.format_post.nudziara.masonry-brick
 optyczne.pl##.center
-optyczne.pl##.skyscraper
 optyczne.pl###warning
 orneta.net##.lof-container
 oxforddictionaries.com##.responsive_cell_whole
@@ -443,7 +437,6 @@ swidniczka.com##.marconi
 telepolis.pl##.b_750
 telepolis.pl##.wiadomosci_lista_div
 telepolis.pl##[style="text-align:center; width:369px; height:285px;"]
-tvn24.pl##[class^="adoHide"]
 tvp.pl##.rectangleWrapper.hidden-phone
 twojapogoda.pl##.billboard
 walbrzyszek.com##.marconi
