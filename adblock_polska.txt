@@ -267,6 +267,8 @@ washa_reklama
 ||hub.com.pl
 ||img.wiocha.pl/img/gry
 ||infogazeta.pl
+||infoweb-24.com
+||infoweb-24.pl
 ||j.o2.pl
 ||jbzd.pl/public/*swf
 ||jelonka.com/flash/
@@ -328,6 +330,7 @@ washa_reklama
 ||clangames.pl^$third-party
 ||comperialead.pl^$third-party
 ||contextad.pl^$third-party
+||cudne.pl^$third-party
 ||dobryinteres.pl^&$third-party
 ||gemius.pl$third-party,popup
 ||gg.adocean.pl$third-party
