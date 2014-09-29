@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
 ! Homepage: http://fb.com/adblockpl
-! Last modified: 25 September 2014
+! Last modified: 29 September 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126
 ! License: GNU GPL v3
@@ -113,6 +113,7 @@ washa_reklama
 ##.adoHide.adoSlv.OnTop
 ##.adSrodek
 ##.advert
+##.ad.top
 ##.ad_block
 ##.ad-vig
 ##.adv_info
@@ -267,6 +268,7 @@ washa_reklama
 ||img.wiocha.pl/img/gry
 ||infogazeta.pl
 ||j.o2.pl
+||jbzd.pl/public/*swf
 ||jelonka.com/flash/
 ||komputerswiat.pl/static/v1/gfx/additional_sections/lg/background
 ||koscian.net/js/scripts.js?
@@ -390,6 +392,7 @@ koscian.net##[class^="banery"]
 kryptokursy.pl##[style="width: 200px; height: 200px; margin: 2px 0px 2px -7px; display: block;"]
 lubin.pl###banner
 luxclub.pl##.policyLink
+macrumors.com##.ad
 miedzyrzec.info##[id^="baner"]
 moszczenica.info##.bannergroup
 mpolska24.pl##.tplAds
