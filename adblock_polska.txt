@@ -14,7 +14,6 @@
 .info/images/banners/
 .goldbachpoland.
 .pl/*/adds/
-.pl/*/ads/
 .pl/data/banners
 .pl/images/baner-
 .pl/images/banners/*swf
@@ -25,6 +24,7 @@
 .pl/files/bannery/
 .pl/news/banery/
 .pl/wp-content/banners/
+/1100x200_
 /300x750_
 /300x700_
 /adexon_
@@ -260,8 +260,8 @@ washa_reklama
 ||extra-plonsk.pl/images/banners/
 ||fakty-wiadomosci.pl
 ||fm.tuba.pl*prosba.jpg
-||fwcdn.pl/adv/*
-||filmweb.pl/welcomeScreenJS?*
+||fwcdn.pl/adv/
+||filmweb.pl/welcomeScreenJS?
 ||gry-online.pl/im/zmieniarka/
 ||hub.com.pl
 ||img.wiocha.pl/img/gry
@@ -279,7 +279,7 @@ washa_reklama
 ||lubartow24.pl/f*_bok.
 ||moneystrategy.info/b/
 ||moviechannel.pl
-||napisy24.pl/files/*
+||napisy24.pl/files/
 ||napisy24.pl/images/190x260x_
 ||partner.vinemo.pl
 ||pclab.pl/img/extra/*_top.png
@@ -360,7 +360,7 @@ chip.pl##.portlet.portletCeneo
 chip.pl##.portletReklama
 chip.pl##.portletWrapper.kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e7468656d6174696373657276696365730a636f6e746578740a2f636869700a637573746f6d2d626f782d31
 chip.pl##[action^="http://www.njobs.eu/search"]
-epoznan.pl##[id="news-gallery-overlay"]
+epoznan.pl###news-gallery-overlay
 filmweb.pl###flashcontent3
 filmweb.pl###homeBar1-pl_PL
 filmweb.pl##[id^="homeBox"]
@@ -428,6 +428,7 @@ se.pl##[class^="item art_reklama"]
 serwislokalny.com##.banner
 spidersweb.pl##.four.columns.hide-for-small
 spidersweb.pl##.g.g-16
+spidersweb.pl##.viking_intro
 sport.pl##.mod.mod_cpCommerce.small
 sportowefakty.pl##.centered.spaced
 supernowosci24.pl###notificationbar
