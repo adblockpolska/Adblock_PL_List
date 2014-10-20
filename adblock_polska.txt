@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B2HR4zAj2lLQEVfyzjl7Mw
-! Version: 201410201450
+! Checksum: sg/toqd4n9NvRUb6mghu2w
+! Version: 201410201600
 ! Title: Adblock Polska
-! Last modified: 20 Oct 2014 14:50 UTC
+! Last modified: 20 Oct 2014 16:00 UTC
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126, MonztA
 ! Homepage: http://fb.com/adblockpl
@@ -88,6 +88,7 @@ _750x700
 !------------------------General element hiding rules-------------------------!
 ! *** adblockpolska:adblockpolska/adblockpolska_general_hide.txt ***
 ! * - General Element Hiding Rules - * !
+###ad-bg-transparent
 ###adsenseLeft
 ###adsense_banner_top
 ###adv_bottom
@@ -101,6 +102,7 @@ _750x700
 ###contener_billboard
 ###divStayTopLeft
 ###dont-use-adblock-goddammit
+###intextad
 ###main-baner
 ###my-main-right
 ###page-peel-banner
@@ -228,6 +230,8 @@ _750x700
 ||contextad.pl^$third-party
 ||cudne.pl^$third-party
 ||dobryinteres.pl^&$third-party
+||e-okazje.com
+||facebookspy.com.pl
 ||fakty-wiadomosci.pl
 ||glossymedia.pl^$third-party
 ||incontext.pl^$third-party
@@ -255,10 +259,13 @@ _750x700
 !-----------------------------Third-party adverts-----------------------------!
 ! *** adblockpolska:adblockpolska/adblockpolska_thirdparty.txt ***
 ! * - 3rd Party Blocking Rules - * !
+||adfreestyle.pl$third-party
+||goodmoney.pl$third-party
 ||leadsign.pl/router/^$third-party
 ||partnerzy.skapiec.pl$third-party
 ||ppwidget.skapiec.pl$third-party
 ||spot.o2.pl$third-party
+||vivuspartner.pl$third-party
 ! *** adblockpolska:adblockpolska/adblockpolska_thirdparty_popup.txt ***
 ||badanie.pollster.pl$popup
 ||gemius.pl$popup,third-party
@@ -356,6 +363,8 @@ pudelek.tv###floorBG
 popularnie.pl###gold-header
 komputerswiat.pl###gz_dso_scroll
 filmweb.pl###homeBar1-pl_PL
+jestbeka.pl###ips-popup
+jestbeka.pl###ips-popup-wrapper
 tvn24.pl###jHotInfosC
 komputerswiat.pl###ks_bezpieczenstwo_podaj_dalej_1048x100
 proline.pl###layer_top
@@ -375,6 +384,7 @@ zombiak.pl###welcomescreen_background
 supernowosci24.pl###wideSidebar
 macrumors.com##.ad
 fotosik.pl,wp.pl,zambrow.org##.adv
+money.pl##.b300.box.ad.ad2
 telepolis.pl##.b_750
 wiocha.pl##.babanner
 serwislokalny.com##.banner
@@ -407,6 +417,7 @@ chip.pl##.portlet.portletCeneo
 chip.pl##.portletReklama
 chip.pl##.portletWrapper.kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e7468656d6174696373657276696365730a636f6e746578740a2f636869700a637573746f6d2d626f782d31
 ceneo.pl##.promoted-products.vertical
+voice.tvp.pl##.rectangleWrapper
 tvp.pl##.rectangleWrapper.hidden-phone
 axn.pl##.region.region-header-ad-space
 filmweb.pl##.relative.iplaParent
