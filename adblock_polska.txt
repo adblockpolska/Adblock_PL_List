@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sg/toqd4n9NvRUb6mghu2w
-! Version: 201410201600
+! Checksum: MI2x5vKJLHXmyEeExqu7mQ
+! Version: 201410210040
 ! Title: Adblock Polska
-! Last modified: 20 Oct 2014 16:00 UTC
+! Last modified: 21 Oct 2014 00:40 UTC
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126, MonztA
 ! Homepage: http://fb.com/adblockpl
@@ -32,6 +32,7 @@
 .pl/img/ad/
 .pl/news/banery/
 .pl/wp-content/banners/
+/_adv/
 /adexon_
 /anty-adblock.js
 /banery-reklamowe/*
@@ -75,10 +76,12 @@ _werbung_
 adserwer.
 bannerad.png
 pl/adsys2
+pl/img/wybory2014/
 washa_reklama
 ! *** adblockpolska:adblockpolska/adblockpolska_general_block_dimensions.txt ***
 /300x700_
 /300x750_
+1100x200_
 _1100x200
 _300x700
 _750x200
@@ -129,6 +132,7 @@ _750x700
 ##.adv_info
 ##.advert
 ##.advertHolder
+##.advert_1
 ##.baner_reklama
 ##.banner-block
 ##.banneritem
@@ -325,6 +329,9 @@ _750x700
 ||pila.pl/images/banners/
 ||pino.pl/static/empire/
 ||portalprzemyski.pl/wp-content/re/
+||radomnews.pl/img/*.swf
+||radomsport.pl/img/*.swf
+||radomsport.pl/img/*_d.jpg
 ||redir.atmcdn.pl*swf$domain=tvn24.pl|tvn24bis.pl
 ||rek.www.wp.pl
 ||reklama.osemka.pl
@@ -373,6 +380,8 @@ supernowosci24.pl###notificationbar
 supernowosci24.pl###ocena
 24.pl###oglmetka
 nudziara.pl###post.format_post.nudziara.masonry-brick
+radomnews.pl,radomsport.pl###skyscraper
+radomnews.pl,radomsport.pl###skyscraper2
 bochnianin.pl###slideText
 nocoty.pl###slider300Wrapper
 groupon.pl###spotlight
@@ -405,6 +414,7 @@ spidersweb.pl##.g.g-16
 napisy24.pl##.header_210
 fakt.pl##.hot_three.promo_box
 wp.tv##.infoAB
+formentorplus.com##.inner
 orneta.net##.lof-container
 jelonka.com,swidniczka.com,walbrzyszek.com##.marconi
 sport.pl,wyborcza.biz##.mod.mod_cpCommerce.small
@@ -416,14 +426,17 @@ glamrap.pl##.popup
 chip.pl##.portlet.portletCeneo
 chip.pl##.portletReklama
 chip.pl##.portletWrapper.kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e7468656d6174696373657276696365730a636f6e746578740a2f636869700a637573746f6d2d626f782d31
+bobrzanie.pl##.post_banner
 ceneo.pl##.promoted-products.vertical
 voice.tvp.pl##.rectangleWrapper
 tvp.pl##.rectangleWrapper.hidden-phone
 axn.pl##.region.region-header-ad-space
 filmweb.pl##.relative.iplaParent
 oxforddictionaries.com##.responsive_cell_whole
+bobrzanie.pl##.reverie-header-banner
 komputerswiat.pl##.self_rectangle
 pl##.skyscraper
+bobrzanie.pl##.skyscrapper
 gratka.pl##.small-12.columns.textC.nieSkacz
 fronda.pl##.small-info
 komputerswiat.pl##.smart_baner.billboard
@@ -469,7 +482,6 @@ telepolis.pl##[style="text-align:center; width:369px; height:285px;"]
 walbrzyszek.com##[style="text-align:center;padding-bottom:15px;"]
 kryptokursy.pl##[style="width: 200px; height: 200px; margin: 2px 0px 2px -7px; display: block;"]
 gry-online.poszkole.pl##footer
-formentorplus.pl##form
 sadistic.pl/pics/c57d81558fed.jpg
 !---------------------------------Whitelists----------------------------------!
 ! *** adblockpolska:adblockpolska/adblockpolska_whitelist.txt ***
