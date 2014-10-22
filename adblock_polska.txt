@@ -1,8 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: MI2x5vKJLHXmyEeExqu7mQ
-! Version: 201410210040
 ! Title: Adblock Polska
-! Last modified: 21 Oct 2014 00:40 UTC
+! Last modified: 22 Oct 2014
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126, MonztA
 ! Homepage: http://fb.com/adblockpl
