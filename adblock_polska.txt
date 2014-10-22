@@ -12,7 +12,6 @@
 ! For even better ad blocking, make sure to install Anti-Adblock Killer by Reek: https://github.com/reek/anti-adblock-killer
 !
 !-----------------------General advert blocking filters-----------------------!
-! *** adblockpolska:adblockpolska/adblockpolska_general_block.txt ***
 ! * - General Blocking Rules - * !
 -lokazje.
 -reklama.gif
@@ -76,7 +75,6 @@ bannerad.png
 pl/adsys2
 pl/img/wybory2014/
 washa_reklama
-! *** adblockpolska:adblockpolska/adblockpolska_general_block_dimensions.txt ***
 /300x700_
 /300x750_
 1100x200_
@@ -84,10 +82,8 @@ _1100x200
 _300x700
 _750x200
 _750x700
-! *** adblockpolska:adblockpolska/adblockpolska_general_block_popup.txt ***
 /popupredir/*$popup
 !------------------------General element hiding rules-------------------------!
-! *** adblockpolska:adblockpolska/adblockpolska_general_hide.txt ***
 ! * - General Element Hiding Rules - * !
 ###ad-bg-transparent
 ###adsenseLeft
@@ -209,9 +205,7 @@ _750x700
 ##[id^="rlband."]
 ##[id^="sponsors-"]
 ##[src^="reklama"]
-! *** adblockpolska:adblockpolska/adblockpolska_whitelist_general_hide.txt ***
 !---------------------------Third-party advertisers---------------------------!
-! *** adblockpolska:adblockpolska/adblockpolska_adservers.txt ***
 ! * - 1st Party Blocking Rules & Ad-servers - * !
 ||18hd.pl^$third-party
 ||abc7.pl
@@ -256,10 +250,8 @@ _750x700
 ||wiadomosci-net.pl
 ||xxxxxxx.pl
 ||zasiltelefon.com.pl
-! *** adblockpolska:adblockpolska/adblockpolska_adservers_popup.txt ***
 ||admailtiser.com^$popup,third-party
 !-----------------------------Third-party adverts-----------------------------!
-! *** adblockpolska:adblockpolska/adblockpolska_thirdparty.txt ***
 ! * - 3rd Party Blocking Rules - * !
 ||adfreestyle.pl$third-party
 ||goodmoney.pl$third-party
@@ -268,11 +260,9 @@ _750x700
 ||ppwidget.skapiec.pl$third-party
 ||spot.o2.pl$third-party
 ||vivuspartner.pl$third-party
-! *** adblockpolska:adblockpolska/adblockpolska_thirdparty_popup.txt ***
 ||badanie.pollster.pl$popup
 ||gemius.pl$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
-! *** adblockpolska:adblockpolska/adblockpolska_specific_block.txt ***
 ||a.techmaniak.pl/www/images/
 ||activepl.tv/rek/
 ||ad.filmweb.pl
@@ -348,9 +338,7 @@ _750x700
 ||x.o2.pl
 ||zambrow.org/firmy/grafika/banner
 ||zycie-pleszewa.pl/images/banners
-! *** adblockpolska:adblockpolska/adblockpolska_specific_block_popup.txt ***
 !------------------------Specific element hiding rules------------------------!
-! *** adblockpolska:adblockpolska/adblockpolska_specific_hide.txt ***
 ! * - Site-specific Element Hiding Rules - * !
 newsweek.pl###ARTICLE_CONTENT_INNER_2
 iv.pl###FlyingLayer
@@ -482,7 +470,6 @@ kryptokursy.pl##[style="width: 200px; height: 200px; margin: 2px 0px 2px -7px; d
 gry-online.poszkole.pl##footer
 sadistic.pl/pics/c57d81558fed.jpg
 !---------------------------------Whitelists----------------------------------!
-! *** adblockpolska:adblockpolska/adblockpolska_whitelist.txt ***
 ! * - Whitelist - * !
 @@/advertisingmodule.$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@/player/vidAS=pre_roll
@@ -506,5 +493,3 @@ sadistic.pl/pics/c57d81558fed.jpg
 @@||static.wirtualnemedia.pl/media/advs/
 @@||tvn.adocean.pl^$script,domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
 @@||wp.tv/adv.js$domain=tosiewytnie.pl
-! *** adblockpolska:adblockpolska/adblockpolska_whitelist_dimensions.txt ***
-! *** adblockpolska:adblockpolska/adblockpolska_whitelist_popup.txt ***
