@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
-! Last modified: 22 Oct 2014
+! Last modified: 25 Oct 2014`
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126, MonztA
 ! Homepage: http://fb.com/adblockpl
@@ -229,7 +229,10 @@ _750x700
 ||e-okazje.com
 ||facebookspy.com.pl
 ||fakty-wiadomosci.pl
+||fullhd.pl
 ||glossymedia.pl^$third-party
+||hdplayer.pl
+||hdvod.pl
 ||incontext.pl^$third-party
 ||info24online.pl
 ||infogazeta.pl
@@ -237,13 +240,18 @@ _750x700
 ||infoweb-24.pl
 ||intextad.net^$third-party
 ||moviechannel.pl
+||moviefactory.com.pl
+||najtube.pl
 ||netsales.pl^$third-party
 ||novem.pl^$third-party
+||odpowiadam.pl
 ||panel.adtify.pl^$third-party
+||playhd.pl
 ||pocketads.pl
 ||realmoney.pl
 ||rekimg.stopklatka.pl
 ||stat24.com$third-party
+||streamy.pl
 ||superwiadomosci24.pl
 ||wiadomosci-fakty.pl
 ||wiadomosci-kraj.pl
@@ -292,6 +300,7 @@ _750x700
 ||extra-plonsk.pl/images/banners/
 ||filmweb.pl/welcomeScreenJS?
 ||fm.tuba.pl*prosba.jpg
+||freehd.pl
 ||fwcdn.pl/adv/
 ||gry-online.pl/im/zmieniarka/
 ||hub.com.pl
