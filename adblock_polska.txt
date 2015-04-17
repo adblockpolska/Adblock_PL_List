@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Polska
-! Last modified: 07 Nov 2014 22:20 UTC
+! Last modified: 17 Apr 2015 20:20 UTC
 ! Expires: 2 days (update frequency)
 ! List maintainers: adblockpl, tomasko126, MonztA
 ! Homepage: http://fb.com/adblockpl
@@ -16,7 +16,7 @@
 -reklama.gif
 .goldbachpoland.
 .pl/*/adds/
-.pl/*/ads/
+.pl/*/ads/wy
 .pl/data/banners
 .pl/files/bannery/
 .pl/images/baner-
@@ -270,6 +270,8 @@ pl/img/wybory2014/
 ||x.interia.pl^*.ad.
 ||zambrow.org/firmy/grafika/banner
 ||zycie-pleszewa.pl/images/banners
+||wykop.pl/paylink/emiter^
+||imgwykop.pl/*/paylink_*.jpg
 ! *** adblockpolska:adblockpolska/adblockpolska_specific_block_popup.txt ***
 !------------------------Specific element hiding rules------------------------!
 ! *** adblockpolska:adblockpolska/adblockpolska_specific_hide.txt ***
@@ -425,6 +427,8 @@ kryptokursy.pl##[style="width: 200px; height: 200px; margin: 2px 0px 2px -7px; d
 wykop.pl##a[href="http://www.wykop.pl/reklama"]
 twoje-seriale.tv##a[href^="http://www.videostream.pl/"]
 wykop.pl##a[href^="http://www.wykop.pl/paylink/"]
+wykop.pl###itemsStream:not(.touch-content) > li[class="link iC"]
+wykop.pl###fixedBox
 !---------------------------------Whitelists----------------------------------!
 ! *** adblockpolska:adblockpolska/adblockpolska_whitelist.txt ***
 @@/advertisingmodule.$domain=ekstraklasa.tv|itvn.pl|player.pl|ttv.pl|tvn.pl|tvn24.pl|tvn24bis.pl|tvn7.pl|tvnplayer.pl|tvnstyle.pl|tvnturbo.pl
